@@ -1,3 +1,112 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A bright and modern school library with students studying.",
+      "imageUrl": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzY2hvb2wlMjBsaWJyYXJ5fGVufDB8fHx8MTc2MjAxNTk1NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "school library"
+    },
+    {
+      "id": "about-principal",
+      "description": "A portrait of the school principal.",
+      "imageUrl": "https://images.unsplash.com/photo-1595211877493-41a4e5f236b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjE5NTYzOTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional portrait"
+    },
+    {
+      "id": "about-mission",
+      "description": "Students collaborating in a classroom.",
+      "imageUrl": "https://images.unsplash.com/photo-1752564291723-bb816a3dfb33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzdHVkZW50cyUyMGNsYXNzcm9vbXxlbnwwfHx8fDE3NjE5NDY1NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "students classroom"
+    },
+    {
+      "id": "academics-preschool",
+      "description": "Young children playing with colorful blocks.",
+      "imageUrl": "https://images.unsplash.com/photo-1533222481259-ce20eda1e20b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlsZHJlbiUyMHBsYXlpbmd8ZW58MHx8fHwxNzYyMDA5NjMzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "children playing"
+    },
+    {
+      "id": "academics-primary",
+      "description": "A teacher helping a primary school student with their work.",
+      "imageUrl": "https://images.unsplash.com/photo-1577896851231-70ef18881754?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0ZWFjaGVyJTIwc3R1ZGVudHxlbnwwfHx8fDE3NjE5Njc5ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "teacher student"
+    },
+    {
+      "id": "academics-secondary",
+      "description": "Teenage students in a science lab.",
+      "imageUrl": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzY2llbmNlJTIwbGFifGVufDB8fHx8MTc2MTkxNTAzMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "science lab"
+    },
+    {
+      "id": "news-sports-day",
+      "description": "Students running a race on a track.",
+      "imageUrl": "https://images.unsplash.com/photo-1761697231227-c35af9a62b0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzdHVkZW50cyUyMHJ1bm5pbmd8ZW58MHx8fHwxNzYyMDIwNTYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "students running"
+    },
+    {
+      "id": "news-science-fair",
+      "description": "A student presenting a science project.",
+      "imageUrl": "https://images.unsplash.com/photo-1619506147172-fda2aa1f8b6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzY2llbmNlJTIwcHJvamVjdHxlbnwwfHx8fDE3NjIwMjA1NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "science project"
+    },
+    {
+      "id": "news-debate-team",
+      "description": "Students engaged in a debate.",
+      "imageUrl": "https://images.unsplash.com/photo-1660351174962-e2a1fbb9af09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzdHVkZW50cyUyMGRlYmF0aW5nfGVufDB8fHx8MTc2MjAyMDU2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "students debating"
+    },
+    {
+      "id": "news-cultural-day",
+      "description": "Students in traditional attire.",
+      "imageUrl": "https://images.unsplash.com/photo-1675388436299-6a6b272a83a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0cmFkaXRpb25hbCUyMGF0dGlyZXxlbnwwfHx8fDE3NjIwMjA1NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "traditional attire"
+    },
+    {
+      "id": "gallery-1",
+      "description": "A modern school building exterior.",
+      "imageUrl": "https://images.unsplash.com/photo-1592066575517-58df903152f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzY2hvb2wlMjBidWlsZGluZ3xlbnwwfHx8fDE3NjE5OTQ1MTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "school building"
+    },
+    {
+      "id": "gallery-2",
+      "description": "Students in an art class.",
+      "imageUrl": "https://images.unsplash.com/photo-1578961140619-896df05b1fd2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcnQlMjBjbGFzc3xlbnwwfHx8fDE3NjE5NzA4ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "art class"
+    },
+    {
+      "id": "gallery-3",
+      "description": "School orchestra performing.",
+      "imageUrl": "https://images.unsplash.com/photo-1730636106465-5bf686631564?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzY2hvb2wlMjBvcmNoZXN0cmF8ZW58MHx8fHwxNzYyMDE1OTU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "school orchestra"
+    },
+    {
+      "id": "gallery-4",
+      "description": "A school basketball game.",
+      "imageUrl": "https://images.unsplash.com/photo-1583079806406-91731880e785?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxiYXNrZXRiYWxsJTIwZ2FtZXxlbnwwfHx8fDE3NjE5MjkyODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "basketball game"
+    },
+    {
+      "id": "gallery-5",
+      "description": "Students on a playground.",
+      "imageUrl": "https://images.unsplash.com/photo-1596997000103-e597b3ca50df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsZHJlbiUyMHBsYXlncm91bmR8ZW58MHx8fHwxNzYxOTM4MDI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "children playground"
+    },
+    {
+      "id": "gallery-6",
+      "description": "Graduation ceremony.",
+      "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxncmFkdWF0aW9uJTIwY2VyZW1vbnl8ZW58MHx8fHwxNzYxOTMxOTEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "graduation ceremony"
+    },
+    {
+      "id": "gallery-7",
+      "description": "School computer lab.",
+      "imageUrl": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb21wdXRlciUyMGxhYnxlbnwwfHx8fDE3NjIwMDQ2NjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "computer lab"
+    },
+    {
+      "id": "gallery-8",
+      "description": "Students reading in a library.",
+      "imageUrl": "https://images.unsplash.com/photo-1752920299211-28be8c9b0121?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzdHVkZW50cyUyMGxpYnJhcnl8ZW58MHx8fHwxNzYxOTA2Njc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "students library"
+    }
+  ]
 }
