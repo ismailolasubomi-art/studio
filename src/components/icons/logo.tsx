@@ -1,33 +1,13 @@
-import type { SVGProps } from 'react';
+import Image from 'next/image';
 
-export function Logo(props: SVGProps<SVGSVGElement>) {
+export function Logo({ width, height, ...props }: { width: number; height: number; [key: string]: any }) {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+    <Image
+      src="https://storage.googleapis.com/project-sparkle-staging-uploads/45a6c381-2dd2-4161-9031-7e86ad60f855/logo.png"
+      alt="Fahad Memorial International School Logo"
+      width={width}
+      height={height}
       {...props}
-    >
-      <title>Fahad Memorial School Logo</title>
-      <path d="M12 2L2 7l10 5 10-5-10-5z" fill="hsl(var(--primary))" />
-      <path d="M2 17l10 5 10-5" stroke="hsl(var(--primary))" />
-      <path d="M2 12l10 5 10-5" stroke="hsl(var(--primary))" />
-      <text
-        x="12"
-        y="14"
-        textAnchor="middle"
-        alignmentBaseline="middle"
-        fontSize="8"
-        fontWeight="bold"
-        fill="hsl(var(--primary-foreground))"
-        className="font-headline"
-      >
-        FM
-      </text>
-    </svg>
+    />
   );
 }

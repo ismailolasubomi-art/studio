@@ -9,7 +9,7 @@ export function Footer() {
       <div className="container py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <div className="flex flex-col items-start gap-4">
           <Link href="/" className="flex items-center gap-2">
-            <Logo className="h-10 w-10 text-primary" />
+            <Logo width={40} height={40} className="h-10 w-10 text-primary" />
             <span className="font-headline font-bold text-xl">{schoolInfo.shortName}</span>
           </Link>
           <p className="text-sm">
