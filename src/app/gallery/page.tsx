@@ -27,6 +27,7 @@ export default function GalleryPage() {
     'gallery-6',
     'gallery-7',
     'gallery-8',
+    'gallery-9',
   ];
   const galleryImages = galleryImageIds.map(id => getPlaceholderImage(id));
 
