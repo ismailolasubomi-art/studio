@@ -6,7 +6,7 @@ const typedData: { placeholderImages: ImagePlaceholder[] } = data;
 
 export const navLinks = [
   { href: '/', label: 'Home' },
-  { href: '/about', label: 'About Us' },
+  { href: '/about', label: 'About' },
   { href: '/admissions', label: 'Admissions' },
   { href: '/academics', label: 'Our Schools' },
   { href: '/gallery', label: 'LIS Life' },
