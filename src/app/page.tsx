@@ -24,7 +24,7 @@ function HeroSection() {
         priority
         data-ai-hint={heroImage.imageHint}
       />
-      <div className="absolute inset-0 bg-black/50" />
+      <div className="absolute inset-0 bg-black/30" />
       <div className="relative z-10 container px-4">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold font-headline drop-shadow-lg">
           Welcome to {schoolInfo.name}
@@ -79,6 +79,7 @@ function AboutPreview() {
                 className="object-cover"
                 data-ai-hint={aboutImage.imageHint}
             />
+            <div className="absolute inset-0 bg-black/10"></div>
         </div>
       </div>
     </section>
