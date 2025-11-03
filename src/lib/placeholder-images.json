@@ -15,25 +15,25 @@
     {
       "id": "about-mission",
       "description": "Diverse group of students working together on a project.",
-      "imageUrl": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzdHVkZW50cyUyMGxlYXJuaW5nfGVufDB8fHx8MTc2MjA5Nzk1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/WhatsApp%20Image%202025-11-01%20at%2019.16.41.jpeg?alt=media&token=b9dddfae-793f-46dd-b5b4-09e58d3a7c6a",
       "imageHint": "students learning"
     },
     {
       "id": "academics-preschool",
       "description": "Young children painting and being creative in a classroom.",
-      "imageUrl": "https://images.unsplash.com/photo-1505642255759-22312b9a45b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwcmVzY2hvb2wlMjBhcnR8ZW58MHx8fHwxNzYyMDk4MDMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/WhatsApp%20Image%202025-11-01%20at%2019.16.27.jpeg?alt=media&token=4f05c457-2b08-4a49-91ba-f80bd5305094",
       "imageHint": "preschool art"
     },
     {
       "id": "academics-primary",
       "description": "A teacher reading a book to a group of engaged young students.",
-      "imageUrl": "https://images.unsplash.com/photo-1542871793-1c339954d794?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwcmltYXJ5JTIwc2Nob29sJTIwY2xhc3Nyb29tfGVufDB8fHx8MTc2MjA5ODAzMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/WhatsApp%20Image%202025-11-01%20at%2019.17.18.jpeg?alt=media&token=e2414b43-9d24-4275-b567-bc439a856024",
       "imageHint": "primary classroom"
     },
     {
       "id": "academics-secondary",
       "description": "High school students collaborating on a science experiment in a lab.",
-      "imageUrl": "https://images.unsplash.com/photo-1576021182212-0ea2db356a5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzZWNvbmRhcnklMjBzY2hvb2wlMjBzdHVkZW50c3xlbnwwfHx8fDE3NjIwOTgwMzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/WhatsApp%20Image%202025-11-01%20at%2019.17.21.jpeg?alt=media&token=b39dfef8-8212-4935-b245-8599cbf977fc",
       "imageHint": "secondary students"
     },
     {

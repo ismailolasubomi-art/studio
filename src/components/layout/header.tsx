@@ -36,11 +36,6 @@ export function Header() {
                 </Link>
               ))}
             </nav>
-            <div className="hidden md:flex items-center gap-2">
-               <Button asChild variant="secondary">
-                  <Link href="/contact">Parent Portal</Link>
-              </Button>
-            </div>
             <Sheet>
               <SheetTrigger asChild>
                 <Button variant="ghost" size="icon" className="md:hidden">
@@ -65,9 +60,6 @@ export function Header() {
                       {link.label}
                     </Link>
                   ))}
-                   <Button asChild variant="secondary">
-                      <Link href="/contact">Parent Portal</Link>
-                  </Button>
                 </nav>
               </SheetContent>
             </Sheet>

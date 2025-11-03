@@ -51,12 +51,6 @@ export const academicPrograms = [
     icon: 'GraduationCap',
     image: 'academics-secondary',
   },
-  {
-    name: "College",
-    description: "Preparing students for university and beyond with a rigorous A-Level programme.",
-    icon: 'GraduationCap',
-    image: 'gallery-6',
-  },
 ];
 
 export const newsArticles = [
