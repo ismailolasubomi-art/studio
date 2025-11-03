@@ -61,7 +61,7 @@ export default function ContactPage() {
                     <div className="lg:col-span-2">
                         <Card className="p-4 sm:p-6 md:p-8">
                              <CardHeader>
-                                <CardTitle className="font-headline text-3xl text-primary">Send a Message</CardTitle>
+                                <CardTitle className="font-headline text-3xl text-foreground">Send a Message</CardTitle>
                             </CardHeader>
                             <CardContent>
                                 <Form {...form}>
@@ -112,7 +112,7 @@ export default function ContactPage() {
                                                 </FormItem>
                                             )}
                                         />
-                                        <Button type="submit" size="lg">Send Message</Button>
+                                        <Button type="submit" size="lg" variant="secondary">Send Message</Button>
                                     </form>
                                 </Form>
                             </CardContent>
@@ -121,20 +121,20 @@ export default function ContactPage() {
                     <div className="lg:col-span-1 space-y-8">
                          <Card>
                             <CardHeader>
-                                <CardTitle className="font-headline text-primary">Our Information</CardTitle>
+                                <CardTitle className="font-headline text-foreground">Our Information</CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <div className="flex items-start gap-4">
-                                    <MapPin className="h-6 w-6 text-primary mt-1" />
-                                    <address className="not-italic text-foreground/80">{schoolInfo.address}</address>
+                                    <MapPin className="h-6 w-6 text-secondary mt-1" />
+                                    <address className="not-italic text-muted-foreground">{schoolInfo.address}</address>
                                 </div>
                                 <div className="flex items-center gap-4">
-                                    <Phone className="h-6 w-6 text-primary" />
-                                    <a href={`tel:${schoolInfo.phone}`} className="hover:text-primary transition-colors text-foreground/80">{schoolInfo.phone}</a>
+                                    <Phone className="h-6 w-6 text-secondary" />
+                                    <a href={`tel:${schoolInfo.phone}`} className="hover:text-secondary transition-colors text-muted-foreground">{schoolInfo.phone}</a>
                                 </div>
                                 <div className="flex items-center gap-4">
-                                    <Mail className="h-6 w-6 text-primary" />
-                                    <a href={`mailto:${schoolInfo.email}`} className="hover:text-primary transition-colors text-foreground/80">{schoolInfo.email}</a>
+                                    <Mail className="h-6 w-6 text-secondary" />
+                                    <a href={`mailto:${schoolInfo.email}`} className="hover:text-secondary transition-colors text-muted-foreground">{schoolInfo.email}</a>
                                 </div>
                             </CardContent>
                         </Card>

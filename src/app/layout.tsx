@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     default: schoolInfo.name,
     template: `%s | ${schoolInfo.name}`,
   },
-  description: 'Fahad Memorial International School, Bachirawa - Nurturing minds for a brighter future.',
+  description: 'Fahad Memorial International School - The British International School in Nigeria.',
 };
 
 export default function RootLayout({
@@ -23,7 +23,7 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Garamond:wght@400;700&display=swap" rel="stylesheet" />
       </head>
       <body className="font-body antialiased flex flex-col min-h-screen">
         <Header />

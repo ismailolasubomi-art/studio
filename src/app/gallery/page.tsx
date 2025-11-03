@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/dialog"
 
 export const metadata: Metadata = {
-  title: 'Gallery',
+  title: 'LIS Life',
   description: 'Explore photos of our campus, events, and student life at Fahad Memorial Int\'l School.',
 };
 
@@ -34,7 +34,7 @@ export default function GalleryPage() {
   return (
     <>
       <PageHeader
-        title="Our Gallery"
+        title="LIS Life"
         subtitle="A snapshot of our vibrant school community in action."
       />
       <section className="py-16 md:py-24">
@@ -43,7 +43,7 @@ export default function GalleryPage() {
             {galleryImages.map((image, idx) => (
               <Dialog key={idx}>
                 <DialogTrigger asChild>
-                  <div className="group relative aspect-video cursor-pointer overflow-hidden rounded-lg shadow-lg">
+                  <div className="group relative aspect-square cursor-pointer overflow-hidden rounded-lg shadow-lg">
                     <Image
                       src={image.imageUrl}
                       alt={image.description}

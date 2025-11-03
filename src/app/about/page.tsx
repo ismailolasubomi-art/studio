@@ -8,7 +8,7 @@ import { about, getPlaceholderImage } from '@/lib/data';
 
 export const metadata: Metadata = {
   title: 'About Us',
-  description: `Learn about the mission, vision, and values of Fahad Memorial Int'l School, Bachirawa.`,
+  description: `Learn about the mission, vision, and values of Fahad Memorial Int'l School.`,
 };
 
 export default function AboutPage() {
@@ -18,8 +18,8 @@ export default function AboutPage() {
   return (
     <>
       <PageHeader
-        title="About Fahad Memorial School"
-        subtitle="A commitment to excellence, integrity, and lifelong learning."
+        title="About Our School"
+        subtitle="A tradition of excellence and a future of innovation."
       />
 
       <section className="py-16 md:py-24">
@@ -37,18 +37,18 @@ export default function AboutPage() {
             <div className="space-y-8">
               <Card>
                 <CardHeader>
-                  <CardTitle className="font-headline text-2xl text-primary">Our Mission</CardTitle>
+                  <CardTitle className="font-headline text-2xl text-foreground">Our Mission</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-foreground/80">{about.mission}</p>
+                  <p className="text-muted-foreground">{about.mission}</p>
                 </CardContent>
               </Card>
               <Card>
                 <CardHeader>
-                  <CardTitle className="font-headline text-2xl text-primary">Our Vision</CardTitle>
+                  <CardTitle className="font-headline text-2xl text-foreground">Our Vision</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-foreground/80">{about.vision}</p>
+                  <p className="text-muted-foreground">{about.vision}</p>
                 </CardContent>
               </Card>
             </div>
@@ -56,23 +56,23 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 bg-secondary">
+      <section className="py-16 md:py-24 bg-primary">
         <div className="container">
           <div className="max-w-4xl mx-auto">
-            <Card>
+            <Card className="bg-background">
               <CardHeader className="text-center">
-                <h2 className="text-3xl font-bold font-headline text-primary">Message from the Principal</h2>
+                <h2 className="text-3xl font-bold font-headline text-foreground">Message from the Principal</h2>
               </CardHeader>
               <CardContent className="flex flex-col md:flex-row items-center gap-8 text-center md:text-left">
-                <Avatar className="h-32 w-32">
+                <Avatar className="h-32 w-32 border-4 border-secondary">
                   <AvatarImage src={principalImage.imageUrl} alt={about.principal.name} data-ai-hint={principalImage.imageHint}/>
                   <AvatarFallback>{about.principal.name.charAt(0)}</AvatarFallback>
                 </Avatar>
                 <div className="space-y-4">
-                    <p className="text-foreground/80 italic">
+                    <p className="text-muted-foreground italic">
                         "{about.principal.message}"
                     </p>
-                    <p className="font-semibold text-primary">{about.principal.name}</p>
+                    <p className="font-semibold text-foreground">{about.principal.name}</p>
                     <p className="text-sm text-muted-foreground">Principal</p>
                 </div>
               </CardContent>

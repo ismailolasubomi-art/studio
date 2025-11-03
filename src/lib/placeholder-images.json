@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero-background",
-      "description": "Students in a classroom",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/WhatsApp%20Image%202025-11-01%20at%2019.17.22.jpeg?alt=media&token=bf1df94c-77e0-45e3-acb3-6ee53de078d7",
-      "imageHint": "students classroom"
+      "description": "Students collaborating in a modern classroom setting",
+      "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzdHVkZW50cyUyMGNvbGxhYm9yYXRpbmd8ZW58MHx8fHwxNzYyMDk3ODgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "students collaborating"
     },
     {
       "id": "about-principal",
@@ -14,51 +14,51 @@
     },
     {
       "id": "about-mission",
-      "description": "Students collaborating in a classroom.",
-      "imageUrl": "https://images.unsplash.com/photo-1752564291723-bb816a3dfb33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzdHVkZW50cyUyMGNsYXNzcm9vbXxlbnwwfHx8fDE3NjE5NDY1NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "students classroom"
+      "description": "Diverse group of students working together on a project.",
+      "imageUrl": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzdHVkZW50cyUyMGxlYXJuaW5nfGVufDB8fHx8MTc2MjA5Nzk1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "students learning"
     },
     {
       "id": "academics-preschool",
-      "description": "Young children playing with colorful blocks.",
-      "imageUrl": "https://images.unsplash.com/photo-1533222481259-ce20eda1e20b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlsZHJlbiUyMHBsYXlpbmd8ZW58MHx8fHwxNzYyMDA5NjMzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "children playing"
+      "description": "Young children painting and being creative in a classroom.",
+      "imageUrl": "https://images.unsplash.com/photo-1505642255759-22312b9a45b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwcmVzY2hvb2wlMjBhcnR8ZW58MHx8fHwxNzYyMDk4MDMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "preschool art"
     },
     {
       "id": "academics-primary",
-      "description": "A teacher helping a primary school student with their work.",
-      "imageUrl": "https://images.unsplash.com/photo-1577896851231-70ef18881754?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0ZWFjaGVyJTIwc3R1ZGVudHxlbnwwfHx8fDE3NjE5Njc5ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "teacher student"
+      "description": "A teacher reading a book to a group of engaged young students.",
+      "imageUrl": "https://images.unsplash.com/photo-1542871793-1c339954d794?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwcmltYXJ5JTIwc2Nob29sJTIwY2xhc3Nyb29tfGVufDB8fHx8MTc2MjA5ODAzMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "primary classroom"
     },
     {
       "id": "academics-secondary",
-      "description": "Teenage students in a science lab.",
-      "imageUrl": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzY2llbmNlJTIwbGFifGVufDB8fHx8MTc2MTkxNTAzMnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "science lab"
+      "description": "High school students collaborating on a science experiment in a lab.",
+      "imageUrl": "https://images.unsplash.com/photo-1576021182212-0ea2db356a5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzZWNvbmRhcnklMjBzY2hvb2wlMjBzdHVkZW50c3xlbnwwfHx8fDE3NjIwOTgwMzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "secondary students"
     },
     {
       "id": "news-sports-day",
-      "description": "Students running a race on a track.",
-      "imageUrl": "https://images.unsplash.com/photo-1761697231227-c35af9a62b0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzdHVkZW50cyUyMHJ1bm5pbmd8ZW58MHx8fHwxNzYyMDIwNTYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "students running"
+      "description": "Students competing in a track and field event.",
+      "imageUrl": "https://images.unsplash.com/photo-1517649763962-0c623066013b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdHVkZW50JTIwc3BvcnRzfGVufDB8fHx8MTc2MjA5ODEzMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student sports"
     },
     {
       "id": "news-science-fair",
-      "description": "A student presenting a science project.",
-      "imageUrl": "https://images.unsplash.com/photo-1619506147172-fda2aa1f8b6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzY2llbmNlJTIwcHJvamVjdHxlbnwwfHx8fDE3NjIwMjA1NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "science project"
+      "description": "A student presenting a science project with a model of the solar system.",
+      "imageUrl": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzY2llbmNlJTIwZmFpcnxlbnwwfHx8fDE3NjIwOTgxMzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "science fair"
     },
     {
       "id": "news-debate-team",
-      "description": "Students engaged in a debate.",
-      "imageUrl": "https://images.unsplash.com/photo-1660351174962-e2a1fbb9af09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzdHVkZW50cyUyMGRlYmF0aW5nfGVufDB8fHx8MTc2MjAyMDU2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "students debating"
+      "description": "Students passionately debating at a podium.",
+      "imageUrl": "https://images.unsplash.com/photo-1533750349088-249502b65280?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkZWJhdGUlMjB0ZWFtfGVufDB8fHx8MTc2MjA5ODEzMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "debate team"
     },
     {
       "id": "news-cultural-day",
-      "description": "Students in traditional attire.",
-      "imageUrl": "https://images.unsplash.com/photo-1675388436299-6a6b272a83a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0cmFkaXRpb25hbCUyMGF0dGlyZXxlbnwwfHx8fDE3NjIwMjA1NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "traditional attire"
+      "description": "Students in colorful traditional attire performing a cultural dance.",
+      "imageUrl": "https://images.unsplash.com/photo-1541848562802-86f34384d169?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjdWx0dXJhbCUyMGRheXxlbnwwfHx8fDE3NjIwOTgxMzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cultural day"
     },
     {
       "id": "gallery-1",

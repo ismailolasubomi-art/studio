@@ -4,8 +4,8 @@ export function Logo({ width, height, ...props }: { width: number; height: numbe
   return (
     <div style={{ width, height, position: 'relative' }}>
         <Image
-          src="https://storage.googleapis.com/project-sparkle-staging-uploads/45a6c381-2dd2-4161-9031-7e86ad60f855/logo.png"
-          alt="Fahad Memorial International School Logo"
+          src="https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/Logo.jfif?alt=media&token=f4fc7bd6-07f3-46cc-8f70-1aa9a9b359fa"
+          alt="Lekki British School Logo"
           fill
           style={{ objectFit: 'contain' }}
           {...props}

@@ -27,7 +27,7 @@ const formSchema = z.object({
   parentName: z.string().min(2, "Parent's name must be at least 2 characters."),
   parentEmail: z.string().email("Invalid email address."),
   parentPhone: z.string().min(10, "Phone number seems too short."),
-  gradeLevel: z.string({ required_error: "Please select a grade level."}),
+  gradeLevel: z.string({ required_error: "Please select a school level."}),
 });
 
 export default function AdmissionsPage() {
@@ -63,24 +63,24 @@ export default function AdmissionsPage() {
             <div className="lg:col-span-1 space-y-8">
                 <Card>
                     <CardHeader>
-                        <CardTitle className="font-headline text-primary">Admission Process</CardTitle>
+                        <CardTitle className="font-headline text-foreground">Admission Process</CardTitle>
                     </CardHeader>
                     <CardContent className="space-y-4">
                         <div className="flex items-start gap-4">
-                            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground font-bold">1</div>
-                            <p>Submit the online application form with all required details.</p>
+                            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-secondary text-secondary-foreground font-bold">1</div>
+                            <p className="text-muted-foreground">Submit the online application form with all required details.</p>
                         </div>
                         <div className="flex items-start gap-4">
-                            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground font-bold">2</div>
-                            <p>Our admissions team will review your application and contact you.</p>
+                            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-secondary text-secondary-foreground font-bold">2</div>
+                            <p className="text-muted-foreground">Our admissions team will review your application and contact you.</p>
                         </div>
                         <div className="flex items-start gap-4">
-                            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground font-bold">3</div>
-                            <p>Schedule an entrance assessment and interview with the school.</p>
+                            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-secondary text-secondary-foreground font-bold">3</div>
+                            <p className="text-muted-foreground">Schedule an entrance assessment and interview with the school.</p>
                         </div>
                          <div className="flex items-start gap-4">
-                            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground font-bold">4</div>
-                            <p>Receive an admission offer and complete the enrollment process.</p>
+                            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-secondary text-secondary-foreground font-bold">4</div>
+                            <p className="text-muted-foreground">Receive an admission offer and complete the enrollment process.</p>
                         </div>
                     </CardContent>
                 </Card>
@@ -88,7 +88,7 @@ export default function AdmissionsPage() {
             <div className="lg:col-span-2">
                 <Card className="p-4 sm:p-6 md:p-8">
                     <CardHeader>
-                        <CardTitle className="font-headline text-3xl text-primary">Application Form</CardTitle>
+                        <CardTitle className="font-headline text-3xl text-foreground">Application Form</CardTitle>
                     </CardHeader>
                     <CardContent>
                         <Form {...form}>
@@ -122,17 +122,18 @@ export default function AdmissionsPage() {
                                     name="gradeLevel"
                                     render={({ field }) => (
                                         <FormItem>
-                                        <FormLabel>Applying for Grade</FormLabel>
+                                        <FormLabel>Applying for School</FormLabel>
                                         <Select onValueChange={field.onChange} defaultValue={field.value}>
                                             <FormControl>
                                             <SelectTrigger>
-                                                <SelectValue placeholder="Select a grade level" />
+                                                <SelectValue placeholder="Select a school level" />
                                             </SelectTrigger>
                                             </FormControl>
                                             <SelectContent>
                                             <SelectItem value="preschool">Preschool</SelectItem>
-                                            <SelectItem value="primary">Primary</SelectItem>
-                                            <SelectItem value="secondary">Secondary</SelectItem>
+                                            <SelectItem value="junior">Junior School</SelectItem>
+                                            <SelectItem value="senior">Senior School</SelectItem>
+                                            <SelectItem value="college">College</SelectItem>
                                             </SelectContent>
                                         </Select>
                                         <FormMessage />
@@ -175,7 +176,7 @@ export default function AdmissionsPage() {
                                     )}
                                 />
 
-                                <Button type="submit" size="lg">Submit Application <ArrowRight className="ml-2 h-5 w-5"/></Button>
+                                <Button type="submit" size="lg" variant="secondary">Submit Application <ArrowRight className="ml-2 h-5 w-5"/></Button>
                             </form>
                         </Form>
                     </CardContent>

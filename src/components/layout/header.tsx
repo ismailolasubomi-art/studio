@@ -17,12 +17,9 @@ export function Header() {
   return (
     <>
       <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container flex h-16 max-w-screen-2xl items-center">
+        <div className="container flex h-20 max-w-screen-2xl items-center">
           <Link href="/" className="mr-6 flex items-center space-x-2">
-            <Logo width={32} height={32} className="h-8 w-8" />
-            <span className="hidden font-bold sm:inline-block font-headline">
-              {schoolInfo.shortName}
-            </span>
+            <Logo width={160} height={40} className="h-10" />
           </Link>
           <div className="flex flex-1 items-center justify-end space-x-2">
             <nav className="hidden md:flex md:gap-4 lg:gap-6">
@@ -31,8 +28,8 @@ export function Header() {
                   key={link.href}
                   href={link.href}
                   className={cn(
-                    'text-sm font-medium transition-colors hover:text-primary',
-                    pathname === link.href ? 'text-primary' : 'text-foreground/60'
+                    'text-sm font-medium transition-colors hover:text-secondary',
+                    pathname === link.href ? 'text-secondary' : 'text-foreground/80'
                   )}
                 >
                   {link.label}
@@ -40,8 +37,8 @@ export function Header() {
               ))}
             </nav>
             <div className="hidden md:flex items-center gap-2">
-               <Button asChild>
-                  <Link href="/admissions">Apply Now</Link>
+               <Button asChild variant="secondary">
+                  <Link href="/contact">Parent Portal</Link>
               </Button>
             </div>
             <Sheet>
@@ -53,8 +50,7 @@ export function Header() {
               </SheetTrigger>
               <SheetContent side="left">
                 <Link href="/" className="mb-8 flex items-center">
-                   <Logo width={32} height={32} className="h-8 w-8 mr-2" />
-                   <span className="font-bold font-headline">{schoolInfo.shortName}</span>
+                   <Logo width={120} height={30} />
                 </Link>
                 <nav className="flex flex-col gap-6">
                   {navLinks.map((link) => (
@@ -62,15 +58,15 @@ export function Header() {
                       key={link.href}
                       href={link.href}
                       className={cn(
-                        'text-lg font-medium transition-colors hover:text-primary',
-                         pathname === link.href ? 'text-primary' : 'text-foreground'
+                        'text-lg font-medium transition-colors hover:text-secondary',
+                         pathname === link.href ? 'text-secondary' : 'text-foreground'
                       )}
                     >
                       {link.label}
                     </Link>
                   ))}
-                   <Button asChild>
-                      <Link href="/admissions">Apply Now</Link>
+                   <Button asChild variant="secondary">
+                      <Link href="/contact">Parent Portal</Link>
                   </Button>
                 </nav>
               </SheetContent>
