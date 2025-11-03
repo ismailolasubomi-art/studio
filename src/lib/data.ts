@@ -70,9 +70,9 @@ export const newsArticles = [
   },
   {
     id: 3,
-    title: "Debate Team Wins Regional Championship",
+    title: "WAEC Registration Ongoing",
     date: "2024-03-10",
-    summary: "Our talented debaters brought home the trophy!",
+    summary: "Registration for the West African Examinations Council (WAEC) is now open for all eligible students.",
     image: "news-debate-team"
   },
   {
