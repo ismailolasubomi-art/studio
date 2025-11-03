@@ -9,7 +9,6 @@ export const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/about', label: 'About' },
   { href: '/admissions', label: 'Admissions' },
-  { href: '/gallery', label: 'LIS Life' },
   { href: '/news', label: 'News' },
   { href: '/contact', label: 'Contact Us' },
 ];
