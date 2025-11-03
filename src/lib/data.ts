@@ -1,3 +1,4 @@
+
 import type { ImagePlaceholder } from './placeholder-images';
 import data from './placeholder-images.json';
 
@@ -8,7 +9,6 @@ export const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/about', label: 'About' },
   { href: '/admissions', label: 'Admissions' },
-  { href: '/academics', label: 'Our Schools' },
   { href: '/gallery', label: 'LIS Life' },
   { href: '/news', label: 'News' },
   { href: '/contact', label: 'Contact Us' },
@@ -29,7 +29,7 @@ export const about = {
   vision: "To be a beacon of educational excellence, shaping future leaders and innovators for a better world.",
   principal: {
     name: "Mrs. Aisha Bello",
-    message: "It is with great pride and excitement that I welcome you to Fahad Memorial Int'l School. Our school is a vibrant community where every child is valued and encouraged to reach their full potential. We are dedicated to maintaining a standard of excellence in all we do. A visit to our school will convince you of our commitment to providing a safe, friendly, and high-quality learning environment for your child."
+    message: "It is with great pride and excitement that I have been appointed as the founding Principal of Fahad Memorial Int'l School. Our school is a vibrant community where every child is valued and encouraged to reach their full potential. We are dedicated to maintaining a standard of excellence in all we do. A visit to our school will convince you of our commitment to providing a safe, friendly, and high-quality learning environment for your child."
   }
 };
 
