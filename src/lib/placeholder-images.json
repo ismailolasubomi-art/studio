@@ -39,19 +39,19 @@
     {
       "id": "news-sports-day",
       "description": "Students competing in a track and field event.",
-      "imageUrl": "https://images.unsplash.com/photo-1517649763962-0c623066013b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdHVkZW50JTIwc3BvcnRzfGVufDB8fHx8MTc2MjA5ODEzMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/WhatsApp%20Image%202025-11-01%20at%2019.16.49.jpeg?alt=media&token=4738eb14-6719-4b8e-be34-b247c5a0ba26",
       "imageHint": "student sports"
     },
     {
       "id": "news-science-fair",
       "description": "A student presenting a science project with a model of the solar system.",
-      "imageUrl": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzY2llbmNlJTIwZmFpcnxlbnwwfHx8fDE3NjIwOTgxMzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/WhatsApp%20Image%202025-11-01%20at%2019.17.18%20(1).jpeg?alt=media&token=9ec38c7f-ebdb-44b7-b0ae-3855a26be90d",
       "imageHint": "science fair"
     },
     {
       "id": "news-debate-team",
       "description": "Students passionately debating at a podium.",
-      "imageUrl": "https://images.unsplash.com/photo-1533750349088-249502b65280?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkZWJhdGUlMjB0ZWFtfGVufDB8fHx8MTc2MjA5ODEzMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/WhatsApp%20Image%202025-11-01%20at%2019.17.20.jpeg?alt=media&token=11ea3cef-837d-4161-8cc6-7cc429ea4508",
       "imageHint": "debate team"
     },
     {
