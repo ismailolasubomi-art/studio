@@ -56,9 +56,9 @@ export const academicPrograms = [
 export const newsArticles = [
   {
     id: 1,
-    title: "Annual Sports Day a Roaring Success",
+    title: "Food Bazzre",
     date: "2024-05-15",
-    summary: "A day of thrilling competition and sportsmanship.",
+    summary: "A delicious showcase of culinary talents from our students and parents.",
     image: "news-sports-day"
   },
   {
