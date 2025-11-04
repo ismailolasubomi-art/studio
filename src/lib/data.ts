@@ -8,6 +8,7 @@ const typedData: { placeholderImages: ImagePlaceholder[] } = data;
 export const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/about', label: 'About' },
+  { href: '/academics', label: 'Our Schools' },
   { href: '/admissions', label: 'Admissions' },
   { href: '/news', label: 'News' },
   { href: '/contact', label: 'Contact Us' },
@@ -97,3 +98,5 @@ export const getPlaceholderImage = (id: string): ImagePlaceholder => {
     }
     return image;
 };
+
+    
