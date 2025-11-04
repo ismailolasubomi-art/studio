@@ -36,7 +36,7 @@ export default function AcademicsPage() {
                     </CardHeader>
                 </div>
                 <CardContent className="p-6">
-                  <p className="text-muted-foreground text-sm mb-4 h-20">{program.description}</p>
+                  <p className="text-muted-foreground text-sm mb-4 h-40">{program.description}</p>
                   <Button variant="link" asChild className="p-0 text-secondary">
                     <Link href="/academics">Learn more <ArrowRight className="ml-2 h-4 w-4"/></Link>
                   </Button>

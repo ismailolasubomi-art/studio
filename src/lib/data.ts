@@ -35,19 +35,19 @@ export const about = {
 export const academicPrograms = [
   {
     name: "Preschool",
-    description: "Nurturing the curiosity and creativity of our youngest learners.",
+    description: "Our Preschool program provides a warm, stimulating environment where the youngest learners discover the joy of learning. From Prep 1 through Grade 5 (including Prep 1, Prep 2, Prep 3, Pre-Elementary 1, Pre-Elementary 2, and Grades 1-5), we focus on building foundational skills in literacy, numeracy, and social interaction while encouraging curiosity and creativity.",
     icon: 'Baby',
     image: 'academics-preschool',
   },
   {
     name: "Junior School",
-    description: "Building strong foundations in a supportive and engaging environment.",
+    description: "The Junior School years are critical for academic and personal development. Our JSS 1-3 program offers a well-rounded curriculum that strengthens core knowledge while developing critical thinking skills. Students benefit from engaging lessons, dedicated teachers, and a supportive atmosphere that encourages both academic excellence and character development.",
     icon: 'BookOpen',
     image: 'academics-primary',
   },
   {
     name: "Senior School",
-    description: "Developing critical thinkers and confident individuals ready for the future.",
+    description: "Our Senior School prepares students for success in WAEC and NECO examinations while developing them into critical thinkers and responsible citizens. Through rigorous academics, practical skills training, and values-based education, we ensure our SS 1-3 students graduate ready to face the challenges of higher education and beyond.",
     icon: 'GraduationCap',
     image: 'academics-secondary',
   },
