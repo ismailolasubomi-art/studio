@@ -80,8 +80,10 @@ export default function AboutPage() {
                     <p className="text-muted-foreground italic">
                         "{about.principal.message}"
                     </p>
-                    <p className="font-semibold text-foreground">{about.principal.name}</p>
-                    <p className="text-sm text-muted-foreground">{about.principal.title}</p>
+                    <div>
+                      <p className="font-semibold text-foreground">{about.principal.name}</p>
+                      <p className="text-sm text-muted-foreground">{about.principal.title}</p>
+                    </div>
                 </div>
               </CardContent>
             </Card>
