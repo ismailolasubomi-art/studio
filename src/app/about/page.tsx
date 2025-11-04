@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   const principalImage = getPlaceholderImage('about-principal');
-  const missionImage = getPlaceholderImage('about-mission');
+  const proprietressImage = getPlaceholderImage('about-proprietress');
 
   return (
     <>
@@ -66,12 +66,12 @@ export default function AboutPage() {
 
       <section className="py-16 md:py-24 bg-primary">
         <div className="container">
-          <div className="max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <Card className="bg-background">
               <CardHeader className="text-center">
                 <h2 className="text-3xl font-bold font-headline text-foreground">Message from the Proprietor</h2>
               </CardHeader>
-              <CardContent className="flex flex-col md:flex-row items-center gap-8 text-center md:text-left">
+              <CardContent className="flex flex-col items-center gap-8 text-center">
                 <Avatar className="h-32 w-32 border-4 border-secondary">
                   <AvatarImage src={principalImage.imageUrl} alt={about.principal.name} data-ai-hint={principalImage.imageHint}/>
                   <AvatarFallback>{about.principal.name.charAt(0)}</AvatarFallback>
@@ -83,6 +83,26 @@ export default function AboutPage() {
                     <div>
                       <p className="font-semibold text-foreground">{about.principal.name}</p>
                       <p className="text-sm text-muted-foreground">{about.principal.title}</p>
+                    </div>
+                </div>
+              </CardContent>
+            </Card>
+             <Card className="bg-background">
+              <CardHeader className="text-center">
+                <h2 className="text-3xl font-bold font-headline text-foreground">Message from the Proprietress</h2>
+              </CardHeader>
+              <CardContent className="flex flex-col items-center gap-8 text-center">
+                <Avatar className="h-32 w-32 border-4 border-secondary">
+                  <AvatarImage src={proprietressImage.imageUrl} alt={about.proprietress.name} data-ai-hint={proprietressImage.imageHint}/>
+                  <AvatarFallback>{about.proprietress.name.charAt(0)}</AvatarFallback>
+                </Avatar>
+                <div className="space-y-4">
+                    <p className="text-muted-foreground italic">
+                        "{about.proprietress.message}"
+                    </p>
+                    <div>
+                      <p className="font-semibold text-foreground">{about.proprietress.name}</p>
+                      <p className="text-sm text-muted-foreground">{about.proprietress.title}</p>
                     </div>
                 </div>
               </CardContent>

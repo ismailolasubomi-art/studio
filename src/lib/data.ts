@@ -31,6 +31,11 @@ export const about = {
     name: "Hassan K. Ismail",
     title: "Proprietor (Secondary School)",
     message: "Welcome to Fahad Memorial International School. Since our establishment in 1996, we have remained committed to one unwavering principle: education built on knowledge and discipline transforms lives. Our Secondary School program is designed to do more than prepare students for examinations, we prepare them for life. We believe that true education develops character alongside intellect, instilling values of integrity, responsibility, and excellence that last a lifetime. As we continue to evolve and meet the demands of modern education, our commitment to quality remains constant. Every student who walks through our doors is a future leader, and we take that responsibility seriously. Together with our dedicated staff and supportive parents, we are building a generation equipped not just with certificates, but with the wisdom, discipline, and resilience to succeed in any endeavor. Thank you for entrusting us with your children's education. We don't take it lightly."
+  },
+  proprietress: {
+    name: "Maryam F. Ismail",
+    title: "Proprietress (Primary/Preschool)",
+    message: "Welcome to the Fahad Memorial family. There is something truly special about the early years of a child's education, it's where curiosity is sparked, confidence is built, and lifelong learning begins. In our Preschool and Primary sections, we understand that every child is unique, with their own pace, strengths, and potential. Our approach is simple: we create a nurturing environment where children feel safe to explore, ask questions, and grow both academically and emotionally. From Prep 1 to Grade 5, we lay strong foundations in literacy, numeracy, and character. We provide foundations that will support them throughout their educational journey. I am deeply proud of our teachers who pour their hearts into every lesson and our parents who partner with us in raising well-rounded children. Together, we are not just educating students; we are shaping the future. Thank you for choosing Fahad Memorial Int'l School. Let's build that future together."
   }
 };
 
