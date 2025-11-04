@@ -11,6 +11,9 @@ export const metadata: Metadata = {
     template: `%s | ${schoolInfo.name}`,
   },
   description: 'Fahad Memorial Int\'l School - Where Knowledge Meets Discipline.',
+  icons: {
+    icon: 'https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/favicon-32x32.png?alt=media&token=ce6507af-a0bd-4e19-be8a-81ded8552d42',
+  },
 };
 
 export default function RootLayout({
