@@ -61,6 +61,7 @@ export const academicPrograms = [
     description: "Our Senior School prepares students for success in WAEC and NECO examinations while developing them into critical thinkers and responsible citizens. Through rigorous academics, practical skills training, and values-based education, we ensure our SS 1-3 students graduate ready to face the challenges of higher education and beyond.",
     icon: 'GraduationCap',
     image: 'academics-secondary',
+    href: '/senior-school',
   },
 ];
 
