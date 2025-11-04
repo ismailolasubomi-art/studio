@@ -10,6 +10,7 @@ export const navLinks = [
   { href: '/about', label: 'About' },
   { href: '/academics', label: 'Our Schools' },
   { href: '/admissions', label: 'Admissions' },
+  { href: '/gallery', label: 'LIS Life'},
   { href: '/news', label: 'News' },
   { href: '/contact', label: 'Contact Us' },
 ];
@@ -17,7 +18,7 @@ export const navLinks = [
 export const schoolInfo = {
   name: "Fahad Memorial Int'l School",
   shortName: 'Fahad Memorial',
-  address: 'Bachirawa, Kano, Nigeria',
+  address: 'Bachirawa, opposite Maryam S. Dantata\'s Mosque, along Katsina Road, Kano.',
   phone: '+234 123 456 7890',
   email: 'info@fahadmemorial.com',
   tagline: 'Knowledge and Discipline',
@@ -30,7 +31,7 @@ export const about = {
   principal: {
     name: "Hassan K. Ismail",
     title: "Proprietor (Secondary School)",
-    message: "Welcome to Fahad Memorial International School. Since our establishment in 1996, we have remained committed to one unwavering principle: education built on knowledge and discipline transforms lives. Our Secondary School program is designed to do more than prepare students for examinations—we prepare them for life. We believe that true education develops character alongside intellect, instilling values of integrity, responsibility, and excellence that last a lifetime. As we continue to evolve and meet the demands of modern education, our commitment to quality remains constant. Every student who walks through our doors is a future leader, and we take that responsibility seriously. Together with our dedicated staff and supportive parents, we are building a generation equipped not just with certificates, but with the wisdom, discipline, and resilience to succeed in any endeavor. Thank you for entrusting us with your children's education. We don't take it lightly."
+    message: "Welcome to Fahad Memorial International School. Since our establishment in 1996, we have remained committed to one unwavering principle: education built on knowledge and discipline transforms lives. Our Secondary School program is designed to do more than prepare students for examinations, we prepare them for life. We believe that true education develops character alongside intellect, instilling values of integrity, responsibility, and excellence that last a lifetime. As we continue to evolve and meet the demands of modern education, our commitment to quality remains constant. Every student who walks through our doors is a future leader, and we take that responsibility seriously. Together with our dedicated staff and supportive parents, we are building a generation equipped not just with certificates, but with the wisdom, discipline, and resilience to succeed in any endeavor. Thank you for entrusting us with your children's education. We don't take it lightly."
   }
 };
 
@@ -99,5 +100,3 @@ export const getPlaceholderImage = (id: string): ImagePlaceholder => {
     }
     return image;
 };
-
-    
