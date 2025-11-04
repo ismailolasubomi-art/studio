@@ -14,7 +14,7 @@ export const navLinks = [
 ];
 
 export const schoolInfo = {
-  name: "Fahad Memorial International School",
+  name: "Fahad Memorial Int'l School",
   shortName: 'Fahad Memorial',
   address: 'Bachirawa, Kano, Nigeria',
   phone: '+234 123 456 7890',

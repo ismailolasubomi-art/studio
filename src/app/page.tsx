@@ -27,7 +27,7 @@ function HeroSection() {
       <div className="absolute inset-0 bg-black/30" />
       <div className="relative z-10 container px-4">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold font-headline drop-shadow-lg">
-          Welcome to Fahad Memorial International School
+          Welcome to Fahad Memorial Int'l School
         </h1>
         <p className="mt-4 text-lg md:text-2xl max-w-3xl mx-auto drop-shadow-md">
           Where Knowledge Meets Discipline
