@@ -67,7 +67,7 @@ export function Footer() {
         <div>
           <h3 className="font-headline font-semibold mb-4">Follow Us</h3>
           <div className="flex space-x-4">
-            <a href="#" aria-label="Facebook" className="text-background/70 hover:text-secondary transition-colors">
+            <a href="https://www.facebook.com/share/1Adm42dQJE/?mibextid=wwXIfr" aria-label="Facebook" className="text-background/70 hover:text-secondary transition-colors" target="_blank" rel="noopener noreferrer">
               <Facebook className="h-6 w-6" />
             </a>
             <a href="https://www.tiktok.com/@fmis_schoolstm?_r=1&_t=ZS-917dbAqMz8T" aria-label="TikTok" className="text-background/70 hover:text-secondary transition-colors" target="_blank" rel="noopener noreferrer">
