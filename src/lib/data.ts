@@ -63,9 +63,9 @@ export const academicPrograms = [
 export const newsArticles = [
   {
     id: 1,
-    title: "Food Bazzre",
-    date: "2024-05-15",
-    summary: "A delicious showcase of culinary talents from our students and parents.",
+    title: "Food Bazaar 2025",
+    date: "2025-11-24",
+    summary: "Get ready for a delicious celebration! Our annual Food Bazaar returns on November 24th, showcasing the culinary creativity of our teachers and students. Participants will prepare and present their finest dishes to a panel of judges, competing for exciting cash prizes. It's a wonderful opportunity to celebrate culture, creativity, and community. Join us for a day filled with flavor and fun!",
     image: "news-sports-day"
   },
   {
