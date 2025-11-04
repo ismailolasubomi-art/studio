@@ -19,13 +19,13 @@ export const schoolInfo = {
   address: 'Bachirawa, Kano, Nigeria',
   phone: '+234 123 456 7890',
   email: 'info@fahadmemorial.com',
-  tagline: 'Where Knowledge Meets Discipline',
+  tagline: 'Knowledge and Discipline',
 };
 
 export const about = {
-  welcome: "Fahad Memorial Int'l School is an all-through British International School located in the heart of Bachirawa, Kano. We offer a wealth of experience in British education, catering for children from Preschool to College. Our goal is to provide a world-class education that nurtures creativity, leadership, and a lifelong love of learning.",
-  mission: "To provide a dynamic and inclusive learning environment that empowers students to become critical thinkers, compassionate leaders, and responsible global citizens.",
-  vision: "To be a beacon of educational excellence, shaping future leaders and innovators for a better world.",
+  welcome: "Fahad Memorial Int'l School is a distinguished educational institution located in the heart of Bachirawa, Kano. Since 1996, we have offered comprehensive education from Preschool through Secondary School, combining academic rigor with strong moral values. Our goal is to provide quality education that nurtures discipline, creativity, leadership, and a lifelong love of learning-preparing students not just for exams, but for life.",
+  mission: "Our mission at Fahad Memorial International School is to foster an environment of discipline, moral integrity, and academic excellence. We aim to inspire young minds to believe in themselves, embrace responsibility, and strive toward achieving success in their future endeavors.",
+  vision: "Our vision is to become a center of excellence dedicated to imparting high-quality education that prepares younger generations for future societal needs and equips them with the skills to thrive in an ever-changing world.",
   principal: {
     name: "Mrs. Aisha Bello",
     message: "It is with great pride and excitement that I have been appointed as the founding Principal of Fahad Memorial Int'l School. Our school is a vibrant community where every child is valued and encouraged to reach their full potential. We are dedicated to maintaining a standard of excellence in all we do. A visit to our school will convince you of our commitment to providing a safe, friendly, and high-quality learning environment for your child."
