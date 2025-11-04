@@ -54,6 +54,7 @@ export const academicPrograms = [
     description: "The Junior School years are critical for academic and personal development. Our JSS 1-3 program offers a well-rounded curriculum that strengthens core knowledge while developing critical thinking skills. Students benefit from engaging lessons, dedicated teachers, and a supportive atmosphere that encourages both academic excellence and character development.",
     icon: 'BookOpen',
     image: 'academics-primary',
+    href: '/junior-school'
   },
   {
     name: "Senior School",
