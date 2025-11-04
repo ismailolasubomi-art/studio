@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight, BookOpen, GraduationCap, Baby, Newspaper } from 'lucide-react';
@@ -54,20 +55,20 @@ function AboutPreview() {
             </p>
             <div className="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
                 <div className="p-4 bg-background rounded-lg shadow-sm">
-                    <p className="text-3xl font-bold text-secondary">3k+</p>
+                    <p className="text-3xl font-bold text-secondary">2k+</p>
                     <p className="text-sm text-muted-foreground">Students</p>
                 </div>
                  <div className="p-4 bg-background rounded-lg shadow-sm">
                     <p className="text-3xl font-bold text-secondary">20+</p>
-                    <p className="text-sm text-muted-foreground">Years</p>
+                    <p className="text-sm text-muted-foreground">Years of Excellence</p>
                 </div>
                  <div className="p-4 bg-background rounded-lg shadow-sm">
                     <p className="text-3xl font-bold text-secondary">100+</p>
-                    <p className="text-sm text-muted-foreground">Teachers</p>
+                    <p className="text-sm text-muted-foreground">Dedicated Teachers</p>
                 </div>
                  <div className="p-4 bg-background rounded-lg shadow-sm">
-                    <p className="text-3xl font-bold text-secondary">A-Levels</p>
-                    <p className="text-sm text-muted-foreground">Offered</p>
+                    <p className="text-3xl font-bold text-secondary">WAEC &amp; NECO</p>
+                    <p className="text-sm text-muted-foreground">Examinations Offered</p>
                 </div>
             </div>
         </div>
