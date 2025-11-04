@@ -55,10 +55,10 @@
       "imageHint": "science fair"
     },
     {
-      "id": "news-debate-team",
-      "description": "Registration for the West African Examinations Council (WAEC) is now open for all eligible students.",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/WhatsApp%20Image%202025-11-01%20at%2019.17.20.jpeg?alt=media&token=11ea3cef-837d-4161-8cc6-7cc429ea4508",
-      "imageHint": "debate team"
+      "id": "news-waec-logo",
+      "description": "The official logo of the West African Examinations Council (WAEC).",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/waec-logo.png?alt=media&token=6039f15b-5136-419f-9b38-1647713fba35",
+      "imageHint": "WAEC logo"
     },
     {
       "id": "news-cultural-day",

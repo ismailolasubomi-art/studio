@@ -1,4 +1,5 @@
 
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight, BookOpen, GraduationCap, Baby, Newspaper } from 'lucide-react';
@@ -6,6 +7,7 @@ import { ArrowRight, BookOpen, GraduationCap, Baby, Newspaper } from 'lucide-rea
 import { schoolInfo, about, academicPrograms, newsArticles, getPlaceholderImage } from '@/lib/data';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+import { cn } from '@/lib/utils';
 
 const iconMap: { [key: string]: React.ElementType } = {
   BookOpen,
@@ -138,7 +140,7 @@ function NewsPreview() {
             return (
               <Card key={article.id} className="overflow-hidden flex flex-col bg-background">
                 <div className="relative h-48 w-full">
-                    <Image src={articleImage.imageUrl} alt={article.title} fill className="object-cover" data-ai-hint={articleImage.imageHint} />
+                    <Image src={articleImage.imageUrl} alt={article.title} fill className={cn("object-cover", article.image === 'news-waec-logo' && 'object-contain p-4')} data-ai-hint={articleImage.imageHint} />
                 </div>
                 <CardHeader>
                     <CardDescription>{new Date(article.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</CardDescription>

@@ -26,7 +26,7 @@ export const schoolInfo = {
 };
 
 export const about = {
-  welcome: "Fahad Memorial Int'l School is a distinguished educational institution located in the heart of Bachirawa, Kano. Since 1996, we have offered comprehensive education from Preschool through Secondary School, combining academic rigor with strong moral values. Our goal is to provide quality education that nurtures discipline, creativity, leadership, and a lifelong love of learning,preparing students not just for exams, but for life.",
+  welcome: "Fahad Memorial Int'l School is a distinguished educational institution located in the heart of Bachirawa, Kano. Since 1996, we have offered comprehensive education from Preschool through Secondary School, combining academic rigor with strong moral values. Our goal is to provide quality education that nurtures discipline, creativity, leadership, and a lifelong love of learning, preparing students not just for exams, but for life.",
   mission: "Our mission at Fahad Memorial Int'l School is to foster an environment of discipline, moral integrity, and academic excellence. We aim to inspire young minds to believe in themselves, embrace responsibility, and strive toward achieving success in their future endeavors.",
   vision: "Our vision is to become a center of excellence dedicated to imparting high-quality education that prepares younger generations for future societal needs and equips them with the skills to thrive in an ever-changing world.",
   principal: {
@@ -79,10 +79,10 @@ export const newsArticles = [
   },
   {
     id: 3,
-    title: "WAEC Registration Ongoing",
+    title: "WAEC Registration Now Open",
     date: "2024-03-10",
-    summary: "Registration for the West African Examinations Council (WAEC) is now open for all eligible students.",
-    image: "news-debate-team"
+    summary: "Registration for the West African Examinations Council (WAEC) is now officially open for all eligible SS3 students. This is an important milestone in your academic journey. Parents and students should complete the registration process promptly to secure examination slots. Visit the school office for registration forms and guidance. Don't miss this critical deadline, your future begins here!",
+    image: "news-waec-logo"
   },
   {
     id: 4,
