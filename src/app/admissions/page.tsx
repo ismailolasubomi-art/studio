@@ -214,7 +214,7 @@ export default function AdmissionsPage() {
                         </div>
                          <div>
                             <h3 className="font-semibold text-lg text-foreground">School Hours</h3>
-                            <p className="text-muted-foreground">For inquiries, please contact our admissions office or visit us during school hours (7:30 a.m. – 3:00 p.m.).</p>
+                            <p className="text-muted-foreground">For inquiries, please contact our admissions office or visit us during school hours (8:00 a.m. – 4:00 p.m.).</p>
                         </div>
                         <Button asChild>
                             <a href="/contact">Contact Admissions Office <ArrowRight className="ml-2 h-5 w-5"/></a>
@@ -228,5 +228,3 @@ export default function AdmissionsPage() {
     </>
   );
 }
-
-    
