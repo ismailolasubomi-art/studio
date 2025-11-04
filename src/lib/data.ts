@@ -25,12 +25,12 @@ export const schoolInfo = {
 
 export const about = {
   welcome: "Fahad Memorial Int'l School is a distinguished educational institution located in the heart of Bachirawa, Kano. Since 1996, we have offered comprehensive education from Preschool through Secondary School, combining academic rigor with strong moral values. Our goal is to provide quality education that nurtures discipline, creativity, leadership, and a lifelong love of learning,preparing students not just for exams, but for life.",
-  mission: "Our mission at Fahad Memorial International School is to foster an environment of discipline, moral integrity, and academic excellence. We aim to inspire young minds to believe in themselves, embrace responsibility, and strive toward achieving success in their future endeavors.",
+  mission: "Our mission at Fahad Memorial Int'l School is to foster an environment of discipline, moral integrity, and academic excellence. We aim to inspire young minds to believe in themselves, embrace responsibility, and strive toward achieving success in their future endeavors.",
   vision: "Our vision is to become a center of excellence dedicated to imparting high-quality education that prepares younger generations for future societal needs and equips them with the skills to thrive in an ever-changing world.",
   principal: {
     name: "Hassan K. Ismail",
     title: "Proprietor (Secondary School)",
-    message: "Welcome to Fahad Memorial International School. Since our establishment in 1996, we have remained committed to one unwavering principle: education built on knowledge and discipline transforms lives. Our Secondary School program is designed to do more than prepare students for examinations, we prepare them for life. We believe that true education develops character alongside intellect, instilling values of integrity, responsibility, and excellence that last a lifetime. As we continue to evolve and meet the demands of modern education, our commitment to quality remains constant. Every student who walks through our doors is a future leader, and we take that responsibility seriously. Together with our dedicated staff and supportive parents, we are building a generation equipped not just with certificates, but with the wisdom, discipline, and resilience to succeed in any endeavor. Thank you for entrusting us with your children's education. We don't take it lightly."
+    message: "Welcome to Fahad Memorial Int'l School. Since our establishment in 1996, we have remained committed to one unwavering principle: education built on knowledge and discipline transforms lives. Our Secondary School program is designed to do more than prepare students for examinations, we prepare them for life. We believe that true education develops character alongside intellect, instilling values of integrity, responsibility, and excellence that last a lifetime. As we continue to evolve and meet the demands of modern education, our commitment to quality remains constant. Every student who walks through our doors is a future leader, and we take that responsibility seriously. Together with our dedicated staff and supportive parents, we are building a generation equipped not just with certificates, but with the wisdom, discipline, and resilience to succeed in any endeavor. Thank you for entrusting us with your children's education. We don't take it lightly."
   },
   proprietress: {
     name: "Maryam F. Ismail",
@@ -65,7 +65,7 @@ export const newsArticles = [
     id: 1,
     title: "Food Bazaar 2025",
     date: "2025-11-24",
-    summary: "Get ready for a delicious celebration! Our annual Food Bazaar returns on November 24th, showcasing the culinary creativity of our teachers and students. Participants will prepare and present their finest dishes to a panel of judges, competing for exciting cash prizes. It's a wonderful opportunity to celebrate culture, creativity, and community. Join us for a day filled with flavor and fun!",
+    summary: "Get ready for a delicious celebration! Our annual Food Bazaar returns on November 24th, 2025 showcasing the culinary creativity of our teachers and students. Participants will prepare and present their finest dishes to a panel of judges, competing for exciting cash prizes. It's a wonderful opportunity to celebrate culture, creativity, and community. Join us for a day filled with flavor and fun!",
     image: "news-sports-day"
   },
   {
