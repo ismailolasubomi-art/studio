@@ -28,8 +28,9 @@ export const about = {
   mission: "Our mission at Fahad Memorial International School is to foster an environment of discipline, moral integrity, and academic excellence. We aim to inspire young minds to believe in themselves, embrace responsibility, and strive toward achieving success in their future endeavors.",
   vision: "Our vision is to become a center of excellence dedicated to imparting high-quality education that prepares younger generations for future societal needs and equips them with the skills to thrive in an ever-changing world.",
   principal: {
-    name: "Mrs. Aisha Bello",
-    message: "It is with great pride and excitement that I have been appointed as the founding Principal of Fahad Memorial Int'l School. Our school is a vibrant community where every child is valued and encouraged to reach their full potential. We are dedicated to maintaining a standard of excellence in all we do. A visit to our school will convince you of our commitment to providing a safe, friendly, and high-quality learning environment for your child."
+    name: "Hassan K. Ismail",
+    title: "Proprietor (Secondary School)",
+    message: "Welcome to Fahad Memorial International School. Since our establishment in 1996, we have remained committed to one unwavering principle: education built on knowledge and discipline transforms lives. Our Secondary School program is designed to do more than prepare students for examinations—we prepare them for life. We believe that true education develops character alongside intellect, instilling values of integrity, responsibility, and excellence that last a lifetime. As we continue to evolve and meet the demands of modern education, our commitment to quality remains constant. Every student who walks through our doors is a future leader, and we take that responsibility seriously. Together with our dedicated staff and supportive parents, we are building a generation equipped not just with certificates, but with the wisdom, discipline, and resilience to succeed in any endeavor. Thank you for entrusting us with your children's education. We don't take it lightly."
   }
 };
 

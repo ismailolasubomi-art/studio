@@ -69,7 +69,7 @@ export default function AboutPage() {
           <div className="max-w-4xl mx-auto">
             <Card className="bg-background">
               <CardHeader className="text-center">
-                <h2 className="text-3xl font-bold font-headline text-foreground">Message from the Principal</h2>
+                <h2 className="text-3xl font-bold font-headline text-foreground">Message from the Proprietor</h2>
               </CardHeader>
               <CardContent className="flex flex-col md:flex-row items-center gap-8 text-center md:text-left">
                 <Avatar className="h-32 w-32 border-4 border-secondary">
@@ -81,7 +81,7 @@ export default function AboutPage() {
                         "{about.principal.message}"
                     </p>
                     <p className="font-semibold text-foreground">{about.principal.name}</p>
-                    <p className="text-sm text-muted-foreground">Principal</p>
+                    <p className="text-sm text-muted-foreground">{about.principal.title}</p>
                 </div>
               </CardContent>
             </Card>
