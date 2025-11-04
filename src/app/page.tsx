@@ -102,19 +102,32 @@ function AcademicsPreview() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {academicPrograms.map((program) => {
              const programImage = getPlaceholderImage(program.image);
+             const ProgramCard = (
+                <Card className="overflow-hidden group transition-shadow hover:shadow-xl h-full flex flex-col">
+                    <div className="relative h-64 w-full">
+                        <Image src={programImage.imageUrl} alt={program.name} fill className="object-cover transition-transform group-hover:scale-105" data-ai-hint={programImage.imageHint} />
+                        <div className="absolute inset-0 bg-black/30" />
+                        <CardHeader className="absolute bottom-0 text-white">
+                            <CardTitle className="font-headline text-2xl">{program.name}</CardTitle>
+                        </CardHeader>
+                    </div>
+                    <CardContent className="p-6 flex-grow">
+                      <p className="text-muted-foreground text-sm">{program.description}</p>
+                    </CardContent>
+                </Card>
+             );
+
+             if (program.href) {
+                return (
+                    <Link href={program.href} key={program.name} className="flex">
+                        {ProgramCard}
+                    </Link>
+                )
+             }
             return (
-              <Card key={program.name} className="overflow-hidden group transition-shadow hover:shadow-xl">
-                <div className="relative h-64 w-full">
-                    <Image src={programImage.imageUrl} alt={program.name} fill className="object-cover transition-transform group-hover:scale-105" data-ai-hint={programImage.imageHint} />
-                    <div className="absolute inset-0 bg-black/30" />
-                    <CardHeader className="absolute bottom-0 text-white">
-                        <CardTitle className="font-headline text-2xl">{program.name}</CardTitle>
-                    </CardHeader>
-                </div>
-                <CardContent className="p-6">
-                  <p className="text-muted-foreground text-sm">{program.description}</p>
-                </CardContent>
-              </Card>
+              <div key={program.name}>
+                {ProgramCard}
+              </div>
             )
           })}
         </div>

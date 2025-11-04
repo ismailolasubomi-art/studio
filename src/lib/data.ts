@@ -47,6 +47,7 @@ export const academicPrograms = [
     description: "Our Preschool program provides a warm, stimulating environment where the youngest learners discover the joy of learning. From Prep 1 through Grade 5 (including Prep 1, Prep 2, Prep 3, Pre-Elementary 1, Pre-Elementary 2, and Grades 1-5), we focus on building foundational skills in literacy, numeracy, and social interaction while encouraging curiosity and creativity.",
     icon: 'Baby',
     image: 'academics-preschool',
+    href: '/preschool-primary'
   },
   {
     name: "Junior School",
@@ -79,9 +80,9 @@ export const newsArticles = [
   },
   {
     id: 3,
-    title: "WAEC Registration Now Open",
+    title: "WAEC Registration Now Open - Registration Ongoing",
     date: "2025-11-04",
-    summary: "Registration for the West African Examinations Council (WAEC) is now officially open for all eligible SS3 students. This is an important milestone in your academic journey. Parents and students should complete the registration process promptly to secure examination slots. Visit the school office for registration forms and guidance. Don't miss this critical deadline, your future begins here!",
+    summary: "The West African Examinations Council (WAEC) registration is now officially open for all eligible SS3 students. This is an important milestone in your academic journey. Parents and students should complete the registration process promptly to secure examination slots. Visit the school office for registration forms and guidance. Don't miss this critical deadline, your future begins here!",
     image: "news-waec-logo"
   },
   {
