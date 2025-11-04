@@ -14,12 +14,12 @@ export const navLinks = [
 ];
 
 export const schoolInfo = {
-  name: "Fahad Memorial Int'l School",
+  name: "Fahad Memorial International School",
   shortName: 'Fahad Memorial',
   address: 'Bachirawa, Kano, Nigeria',
   phone: '+234 123 456 7890',
   email: 'info@fahadmemorial.com',
-  tagline: 'The British International School in Nigeria',
+  tagline: 'Where Knowledge Meets Discipline',
 };
 
 export const about = {

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     default: schoolInfo.name,
     template: `%s | ${schoolInfo.name}`,
   },
-  description: 'Fahad Memorial International School - The British International School in Nigeria.',
+  description: 'Fahad Memorial International School - Where Knowledge Meets Discipline.',
 };
 
 export default function RootLayout({
