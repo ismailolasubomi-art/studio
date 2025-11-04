@@ -43,8 +43,8 @@ export const about = {
 
 export const academicPrograms = [
   {
-    name: "Preschool",
-    description: "Our Preschool program provides a warm, stimulating environment where the youngest learners discover the joy of learning. From Prep 1 through Grade 5 (including Prep 1, Prep 2, Prep 3, Pre-Elementary 1, Pre-Elementary 2, and Grades 1-5), we focus on building foundational skills in literacy, numeracy, and social interaction while encouraging curiosity and creativity.",
+    name: "Preschool & Primary",
+    description: "Our Preschool and Primary programs provide a warm, stimulating environment where the youngest learners discover the joy of learning. From Prep 1 through Grade 5, we focus on building foundational skills in literacy, numeracy, and social interaction while encouraging curiosity and creativity.",
     icon: 'Baby',
     image: 'academics-preschool',
     href: '/preschool-primary'

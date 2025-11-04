@@ -2,12 +2,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import { CheckCircle, ArrowRight, BookOpen, FlaskConical, Laptop, Footprints } from 'lucide-react';
+import { CheckCircle, ArrowRight } from 'lucide-react';
 
 import { PageHeader } from '@/components/page-header';
 import { getPlaceholderImage, schoolInfo } from '@/lib/data';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 export const metadata: Metadata = {
   title: 'Junior School',
@@ -43,28 +43,23 @@ const facilities = [
     {
         id: 'gallery-7',
         title: 'Modern Computer Laboratory',
-        description: "Technology powers the future. Our well-equipped computer lab features modern systems where students learn Microsoft Office, basic programming, internet research, and digital citizenship. Hands-on practice ensures students are tech-confident and ready for the digital age."
+        description: "Technology powers the future. Our well-equipped computer lab features modern systems where students learn Microsoft Office, internet research, and digital citizenship. Hands-on practice ensures students are tech-confident and ready for the digital age."
     },
     {
         id: 'gallery-9',
         title: 'Science Laboratory',
-        description: "Theory meets practice! Our science lab allows students to conduct experiments, observe phenomena, and understand scientific principles through direct experience. From chemistry reactions to biology dissections, learning becomes tangible and memorable."
+        description: "Theory meets practice! Our science lab allows students to conduct experiments, observe phenomena, and understand scientific principles through direct experience."
     },
     {
         id: 'about-mission',
-        title: 'Spacious, Well-Ventilated Classrooms',
+        title: 'Well-Ventilated Classrooms',
         description: "Conducive learning environments matter. Our JSS classrooms are designed for focused study—equipped with teaching aids, adequate seating, proper lighting, and ventilation that keeps students comfortable and engaged throughout lessons."
     },
     {
         id: 'gallery-4',
         title: 'Football Field & Sports Facilities',
-        description: "Athletics build character. Our football field hosts inter-house competitions, PE classes, and after-school training. We believe sports teach discipline, teamwork, resilience, and healthy competition—lessons that translate to academic success."
+        description: "Athletics build character. Our football field hosts Physical education classes and recreational activities where students stay active and healthy. We believe sports teach discipline, teamwork, resilience, and sportsmanship—lessons that translate to academic success."
     },
-    {
-        id: 'gallery-8',
-        title: 'Library & Resource Center',
-        description: "Knowledge lives here. Our library stocks textbooks, reference materials, novels, and educational resources supporting all subjects. Students develop research skills and independent learning habits in a quiet, focused environment."
-    }
 ];
 
 const curriculumSubjects = [
@@ -73,11 +68,10 @@ const curriculumSubjects = [
     "Basic Science & Technology: Physics, chemistry, biology fundamentals, practical experiments",
     "Social Studies: History, geography, civics, current affairs",
     "Religious Studies (Islamic/Christian): Moral and spiritual education",
-    "Computer Studies: Software applications, coding basics, digital literacy",
+    "Computer Studies: Introduction to computers, typing skills, internet awareness",
     "Creative & Cultural Arts: Fine arts, music, drama, cultural studies",
     "Physical & Health Education: Sports, fitness, health awareness",
     "Home Economics & Agricultural Science: Practical life skills",
-    "French/Arabic: Language options"
 ];
 
 export default function JuniorSchoolPage() {
@@ -90,7 +84,7 @@ export default function JuniorSchoolPage() {
                         Introduction
                     </h2>
                     <p className="text-lg text-muted-foreground">
-                        The junior secondary years are transformative. At Fahad Memorial, JSS 1-3 students transition from childhood to adolescence in an environment that challenges them academically while supporting their personal growth. We prepare students not just for senior secondary, but for life—equipping them with knowledge, skills, and values that last forever.
+                        The junior secondary years are transformative. At Fahad Memorial Int'l School, JSS 1-3 students transition from childhood to adolescence in an environment that challenges them academically while supporting their personal growth. We prepare students not just for senior secondary, but for life—equipping them with knowledge, skills, and values that last forever.
                     </p>
                 </div>
             </section>
@@ -170,9 +164,10 @@ export default function JuniorSchoolPage() {
                                 <p>✓ Debate and Literary Society</p>
                                 <p>✓ Science Club</p>
                                 <p>✓ Mathematics Club</p>
-                                <p>✓ Sports Teams (Football, Athletics)</p>
+                                <p>✓ Sports Teams (Football, Athletics, Table Tennis)</p>
                                 <p>✓ Drama and Cultural Performances</p>
                                 <p>✓ Quiz Competitions</p>
+                                <p>✓ Leadership Training</p>
                             </CardContent>
                         </Card>
                          <Card>
@@ -195,29 +190,29 @@ export default function JuniorSchoolPage() {
                 </div>
              </section>
 
-            <section className="py-16 md:py-24 bg-primary">
+            <section className="py-16 md:py-24 bg-secondary">
                 <div className="container max-w-4xl mx-auto">
                      <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold font-headline text-foreground">Why Choose Our Junior School?</h2>
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                        <div className="flex items-center gap-3"><CheckCircle className="h-6 w-6 text-secondary flex-shrink-0" /><p>Qualified, experienced subject teachers</p></div>
-                        <div className="flex items-center gap-3"><CheckCircle className="h-6 w-6 text-secondary flex-shrink-0" /><p>Balanced academic and character development</p></div>
-                        <div className="flex items-center gap-3"><CheckCircle className="h-6 w-6 text-secondary flex-shrink-0" /><p>Modern facilities supporting 21st-century learning</p></div>
-                        <div className="flex items-center gap-3"><CheckCircle className="h-6 w-6 text-secondary flex-shrink-0" /><p>Strong discipline and moral foundation</p></div>
-                        <div className="flex items-center gap-3"><CheckCircle className="h-6 w-6 text-secondary flex-shrink-0" /><p>Proven track record of excellent exam results</p></div>
-                        <div className="flex items-center gap-3"><CheckCircle className="h-6 w-6 text-secondary flex-shrink-0" /><p>Safe, supportive learning environment</p></div>
-                        <div className="flex items-center gap-3"><CheckCircle className="h-6 w-6 text-secondary flex-shrink-0" /><p>Active parent-school partnership</p></div>
+                        <div className="flex items-center gap-3"><CheckCircle className="h-6 w-6 text-primary flex-shrink-0" /><p>Qualified, experienced subject teachers</p></div>
+                        <div className="flex items-center gap-3"><CheckCircle className="h-6 w-6 text-primary flex-shrink-0" /><p>Balanced academic and character development</p></div>
+                        <div className="flex items-center gap-3"><CheckCircle className="h-6 w-6 text-primary flex-shrink-0" /><p>Modern facilities supporting 21st-century learning</p></div>
+                        <div className="flex items-center gap-3"><CheckCircle className="h-6 w-6 text-primary flex-shrink-0" /><p>Strong discipline and moral foundation</p></div>
+                        <div className="flex items-center gap-3"><CheckCircle className="h-6 w-6 text-primary flex-shrink-0" /><p>Proven track record of excellent exam results</p></div>
+                        <div className="flex items-center gap-3"><CheckCircle className="h-6 w-6 text-primary flex-shrink-0" /><p>Safe, supportive learning environment</p></div>
+                        <div className="flex items-center gap-3"><CheckCircle className="h-6 w-6 text-primary flex-shrink-0" /><p>Active parent-school partnership</p></div>
                     </div>
                 </div>
             </section>
             
-            <section className="py-16 md:py-24 bg-secondary">
-                <div className="container text-center text-secondary-foreground">
+            <section className="py-16 md:py-24 bg-primary">
+                <div className="container text-center">
                     <h2 className="text-3xl md:text-4xl font-bold font-headline">Enroll your child in a junior school that prepares them for success.</h2>
-                    <p className="mt-4 max-w-xl mx-auto">Contact us today!</p>
+                    <p className="mt-4 max-w-xl mx-auto text-muted-foreground">Contact us today!</p>
                     <div className="mt-8">
-                        <Button size="lg" variant="default" asChild>
+                        <Button size="lg" variant="secondary" asChild>
                             <Link href="/admissions">
                                 Apply Now <ArrowRight className="ml-2 h-5 w-5" />
                             </Link>
