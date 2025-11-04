@@ -19,7 +19,7 @@ export default function AcademicsPage() {
     <>
       <PageHeader
         title="Our Schools"
-        subtitle="We offer a complete and balanced education from Preschool to College."
+        subtitle="We offer complete and balanced education across three levels, guiding students from their earliest years through to graduation."
       />
       <section className="py-16 md:py-24">
         <div className="container">
