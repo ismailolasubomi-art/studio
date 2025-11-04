@@ -3,7 +3,7 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import * as z from "zod";
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin, Clock } from 'lucide-react';
 
 import { PageHeader } from '@/components/page-header';
 import { Button } from "@/components/ui/button";
@@ -54,7 +54,7 @@ export default function ContactPage() {
         <>
             <PageHeader
                 title="Contact Us"
-                subtitle="We'd love to hear from you. Get in touch with us for any inquiries."
+                subtitle="We'd love to hear from you! Whether you have questions about admissions, our programs, or upcoming events, our team is ready to assist."
             />
             <section className="py-16 md:py-24">
                 <div className="container grid grid-cols-1 lg:grid-cols-3 gap-12">
@@ -125,16 +125,24 @@ export default function ContactPage() {
                             </CardHeader>
                             <CardContent className="space-y-6">
                                 <div className="flex items-start gap-4">
-                                    <MapPin className="h-6 w-6 text-secondary mt-1" />
+                                    <MapPin className="h-6 w-6 text-secondary mt-1 flex-shrink-0" />
                                     <address className="not-italic text-muted-foreground">{schoolInfo.address}</address>
                                 </div>
                                 <div className="flex items-center gap-4">
-                                    <Phone className="h-6 w-6 text-secondary" />
-                                    <a href={`tel:${schoolInfo.phone}`} className="hover:text-secondary transition-colors text-muted-foreground">{schoolInfo.phone}</a>
+                                    <Phone className="h-6 w-6 text-secondary flex-shrink-0" />
+                                    <div className="text-muted-foreground">
+                                        <a href={`tel:${schoolInfo.phone}`} className="hover:text-secondary transition-colors">{schoolInfo.phone}</a>
+                                        <br />
+                                        <a href={`tel:${schoolInfo.phone2}`} className="hover:text-secondary transition-colors">{schoolInfo.phone2}</a>
+                                    </div>
                                 </div>
                                 <div className="flex items-center gap-4">
-                                    <Mail className="h-6 w-6 text-secondary" />
-                                    <a href={`mailto:${schoolInfo.email}`} className="hover:text-secondary transition-colors text-muted-foreground">{schoolInfo.email}</a>
+                                    <Mail className="h-6 w-6 text-secondary flex-shrink-0" />
+                                    <a href={`mailto:${schoolInfo.email}`} className="hover:text-secondary transition-colors text-muted-foreground break-all">{schoolInfo.email}</a>
+                                </div>
+                                 <div className="flex items-start gap-4">
+                                    <Clock className="h-6 w-6 text-secondary mt-1 flex-shrink-0" />
+                                    <p className="text-muted-foreground">{schoolInfo.officeHours}</p>
                                 </div>
                             </CardContent>
                         </Card>

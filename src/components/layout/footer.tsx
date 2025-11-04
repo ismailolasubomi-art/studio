@@ -19,7 +19,7 @@ export function Footer() {
         <div>
           <h3 className="font-headline font-semibold mb-4">Quick Links</h3>
           <ul className="space-y-2">
-            {navLinks.slice(0, 5).map((link) => (
+            {navLinks.map((link) => (
               <li key={link.href}>
                 <Link href={link.href} className="text-sm text-background/70 hover:text-secondary transition-colors">
                   {link.label}
@@ -36,6 +36,10 @@ export function Footer() {
             <p>
               <a href={`tel:${schoolInfo.phone}`} className="hover:text-secondary transition-colors">
                 {schoolInfo.phone}
+              </a>
+              <br />
+               <a href={`tel:${schoolInfo.phone2}`} className="hovertext-secondary transition-colors">
+                {schoolInfo.phone2}
               </a>
             </p>
             <p>
