@@ -79,13 +79,6 @@ export const newsArticles = [
     date: "2025-11-04",
     summary: "The West African Examinations Council (WAEC) registration is now officially open for all eligible SS3 students. This is an important milestone in your academic journey. Parents and students should complete the registration process promptly to secure examination slots. Visit the school office for registration forms and guidance. Don't miss this critical deadline, your future begins here!",
     image: "news-waec-logo"
-  },
-  {
-    id: 4,
-    title: "Cultural Day Celebration",
-    date: "2024-02-18",
-    summary: "A vibrant display of diversity and heritage.",
-    image: "news-cultural-day"
   }
 ];
 
