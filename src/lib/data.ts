@@ -161,12 +161,3 @@ export const getPlaceholderImage = (id: string): ImagePlaceholder => {
     }
     return image;
 };
-
-
-
-
-
-
-
-
-
