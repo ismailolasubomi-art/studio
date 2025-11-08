@@ -49,7 +49,6 @@ const facilities = [
     { id: 'gallery-9', title: 'Fully-Equipped Science Laboratories', description: "Practical knowledge matters for WAEC/NECO success. Our chemistry, physics, and biology labs provide hands-on experience with experiments, equipment handling, and scientific methodology turning theoretical knowledge into practical understanding." },
     { id: 'gallery-4', title: 'Football Field', description: "Sports remain vital even at senior level. Our football field hosts PE classes and athletic activities where students stay physically fit and mentally refreshed. We've nurtured students who balance athletic passion with academic excellence, proving that a healthy body supports a sharp mind." },
     { id: 'about-mission', title: 'Modern, Focused Learning Spaces', description: "Senior students need serious learning environments. Our SS classrooms are designed for mature learners—spacious, well-equipped with teaching materials, minimal distractions, and conducive for the concentrated study senior school demands." },
-    { id: 'gallery-8', title: 'Library & Resource Center', description: "Our library is stocked with textbooks, past questions, and research materials, providing a quiet space for independent study and exam preparation." },
 ];
 
 export default function SeniorSchoolPage() {
@@ -138,7 +137,7 @@ export default function SeniorSchoolPage() {
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold font-headline text-foreground">Our Facilities</h2>
                     </div>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                         {facilities.map(facility => {
                             const facilityImage = getPlaceholderImage(facility.id);
                             return (
