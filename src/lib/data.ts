@@ -94,7 +94,6 @@ export const newsArticles = [
       </ul>
 
       <p class="mt-6">Whether you're craving Italian pasta, Asian stir-fry, Middle Eastern kebabs, African jollof, or American classics, <strong>we have it all under one roof!</strong></p>
-      <p class="mt-4">Bring your family and friends for a day of great food, cultural celebration, and community bonding.</p>
       <p class="mt-4"><em>All proceeds support school programs and activities.</em></p>
       <p class="mt-6">For more information, contact the school administration.</p>
       <p class="text-center font-bold text-xl mt-8">See you there! Let's celebrate diversity, one plate at a time! 🎉</p>
@@ -162,6 +161,7 @@ export const getPlaceholderImage = (id: string): ImagePlaceholder => {
     }
     return image;
 };
+
 
 
 
