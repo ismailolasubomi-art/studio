@@ -68,22 +68,36 @@ export const academicPrograms = [
 export const newsArticles = [
   {
     id: 1,
-    title: "Food Bazzre 2025",
+    title: "Intercontinental Food Bazzre 2025",
     slug: "food-bazzre-2025",
     date: "2025-11-24",
-    summary: "A delicious celebration of culinary creativity! Our annual Food Bazzre will showcase the talents of our students and teachers.",
+    summary: "Experience a culinary journey around the world at our upcoming Intercontinental Food Bazzre! Savor authentic dishes from across the globe.",
     image: "news-sports-day",
     content: `
-      <p>Get ready for a delicious celebration! Our annual Food Bazzre returns on November 24th, 2025, showcasing the culinary creativity of our teachers and students. Participants will prepare and present their finest dishes to a panel of judges, competing for exciting cash prizes.</p>
-      <p>This event is a wonderful opportunity for our school community to come together and celebrate the diverse cultures and talents within Fahad Memorial Int'l School. From traditional Nigerian dishes to international cuisine, there will be something to delight every palate.</p>
-      <h3 class="font-bold text-lg mt-4 mb-2">Event Details:</h3>
-      <ul class="list-disc list-inside space-y-1">
-        <li><strong>Date:</strong> Monday, November 24, 2025</li>
-        <li><strong>Time:</strong> 10:00 AM - 3:00 PM</li>
-        <li><strong>Location:</strong> School Grounds</li>
-        <li><strong>Participation:</strong> Open to all students, teachers, and parent teams.</li>
+      <p class="text-center text-xl mb-4">🍽️ <strong>Intercontinental Food Bazzre at Fahad Memorial Int'l School!</strong> 🌍</p>
+      <p class="text-center text-lg mb-6">Experience a Culinary Journey Around the World!</p>
+      <p>We're excited to announce our upcoming Food Bazzre featuring an incredible selection of intercontinental cuisines that will take your taste buds on a global adventure!</p>
+      
+      <h3 class="font-bold text-lg mt-6 mb-2">Event Highlights:</h3>
+      <ul class="list-disc list-inside space-y-2">
+        <li><strong>Diverse Cuisines:</strong> Savor authentic dishes from Asia, Europe, Africa, the Americas, and the Middle East.</li>
+        <li><strong>Fresh Preparations:</strong> All meals prepared with quality ingredients and traditional cooking methods.</li>
+        <li><strong>Cultural Experience:</strong> Learn about different food cultures while you dine.</li>
+        <li><strong>Family-Friendly:</strong> Something delicious for everyone!</li>
       </ul>
-      <p class="mt-4">It's a day filled with flavor, fun, and friendly competition. We invite all parents and family members to join us and support our budding chefs!</p>
+
+      <h3 class="font-bold text-lg mt-6 mb-2">Event Details:</h3>
+      <ul class="list-none space-y-2">
+          <li><strong>📅 Date:</strong> To Be Decided</li>  
+          <li><strong>⏰ Time:</strong> To Be Decided</li>  
+          <li><strong>📍 Venue:</strong> Fahad Memorial Int'l School Campus</li>
+      </ul>
+
+      <p class="mt-6">Whether you're craving Italian pasta, Asian stir-fry, Middle Eastern kebabs, African jollof, or American classics, <strong>we have it all under one roof!</strong></p>
+      <p class="mt-4">Bring your family and friends for a day of great food, cultural celebration, and community bonding.</p>
+      <p class="mt-4"><em>All proceeds support school programs and activities.</em></p>
+      <p class="mt-6">For more information, contact the school administration.</p>
+      <p class="text-center font-bold text-xl mt-8">See you there! Let's celebrate diversity, one plate at a time! 🎉</p>
     `
   },
   {
