@@ -68,13 +68,13 @@ export const academicPrograms = [
 export const newsArticles = [
   {
     id: 1,
-    title: "Food Bazaar 2025",
-    slug: "food-bazaar-2025",
+    title: "Food Bazzre 2025",
+    slug: "food-bazzre-2025",
     date: "2025-11-24",
-    summary: "A delicious celebration of culinary creativity! Our annual Food Bazaar will showcase the talents of our students and teachers.",
+    summary: "A delicious celebration of culinary creativity! Our annual Food Bazzre will showcase the talents of our students and teachers.",
     image: "news-sports-day",
     content: `
-      <p>Get ready for a delicious celebration! Our annual Food Bazaar returns on November 24th, 2025, showcasing the culinary creativity of our teachers and students. Participants will prepare and present their finest dishes to a panel of judges, competing for exciting cash prizes.</p>
+      <p>Get ready for a delicious celebration! Our annual Food Bazzre returns on November 24th, 2025, showcasing the culinary creativity of our teachers and students. Participants will prepare and present their finest dishes to a panel of judges, competing for exciting cash prizes.</p>
       <p>This event is a wonderful opportunity for our school community to come together and celebrate the diverse cultures and talents within Fahad Memorial Int'l School. From traditional Nigerian dishes to international cuisine, there will be something to delight every palate.</p>
       <h3 class="font-bold text-lg mt-4 mb-2">Event Details:</h3>
       <ul class="list-disc list-inside space-y-1">
@@ -84,6 +84,26 @@ export const newsArticles = [
         <li><strong>Participation:</strong> Open to all students, teachers, and parent teams.</li>
       </ul>
       <p class="mt-4">It's a day filled with flavor, fun, and friendly competition. We invite all parents and family members to join us and support our budding chefs!</p>
+    `
+  },
+  {
+    id: 2,
+    title: "Cultural Day Celebration",
+    slug: "cultural-day-2024",
+    date: "2024-02-18",
+    summary: "A vibrant showcase of our rich cultural heritage. Students and staff celebrated with traditional attire, food, and performances.",
+    image: "news-cultural-day",
+    content: `
+      <p>Our annual Cultural Day was a massive success! On February 18, 2024, our school grounds were transformed into a vibrant tapestry of colors, sounds, and traditions. Students and staff proudly wore stunning traditional attire, representing the diverse ethnic groups within our school community.</p>
+      <p>The day was filled with exciting activities, including electrifying dance performances, dramatic presentations, and a delicious spread of traditional foods. It was a beautiful reminder of the unity in our diversity and the importance of preserving our cultural heritage.</p>
+       <h3 class="font-bold text-lg mt-4 mb-2">Highlights of the Day:</h3>
+      <ul class="list-disc list-inside space-y-1">
+        <li>Parade of Nations featuring various cultural outfits.</li>
+        <li>Traditional dance-off between houses.</li>
+        <li>A feast of cultural delicacies.</li>
+        <li>Spoken word poetry and drama sketches.</li>
+      </ul>
+      <p class="mt-4">We thank all parents and guardians who joined us and made the day truly memorable. We look forward to an even grander celebration next year!</p>
     `
   },
   {
