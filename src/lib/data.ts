@@ -20,7 +20,7 @@ export const schoolInfo = {
   address: "Bachirawa, Opposite Maryam S. Dantata's Mosque, Along Katsina Road, Kano, Nigeria",
   phone: '09037272329',
   phone2: '08068136287',
-  email: 'info@fahadmemorial.com',
+  email: 'fahadmemorialschool@proton.me',
   tagline: 'Knowledge and Discipline',
   officeHours: 'Monday - Friday: 8:00 AM - 4:00 PM',
 };
