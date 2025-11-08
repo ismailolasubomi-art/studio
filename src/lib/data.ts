@@ -74,11 +74,25 @@ export const newsArticles = [
     image: "news-sports-day"
   },
   {
+    id: 2,
+    title: "Science Fair Showcases Young Innovators",
+    date: "2024-03-15",
+    summary: "Our annual science fair was a huge success, with students from all grades presenting innovative projects. From sustainable energy solutions to robotics, the creativity on display was truly inspiring.",
+    image: "news-science-fair"
+  },
+  {
     id: 3,
     title: "WAEC Registration Now Open - Registration Ongoing",
     date: "2025-11-04",
     summary: "The West African Examinations Council (WAEC) registration is now officially open for all eligible SS3 students. This is an important milestone in your academic journey. Parents and students should complete the registration process promptly to secure examination slots. Visit the school office for registration forms and guidance. Don't miss this critical deadline, your future begins here!",
     image: "news-waec-logo"
+  },
+  {
+    id: 4,
+    title: "Cultural Day Celebration",
+    date: "2024-02-18",
+    summary: "We celebrated our rich cultural diversity with a vibrant event filled with music, dance, and traditional attire. It was a beautiful display of unity and pride in our heritage.",
+    image: "news-cultural-day"
   }
 ];
 
