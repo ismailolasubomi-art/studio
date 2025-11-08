@@ -32,7 +32,7 @@ function HeroSection() {
                     Where Learning Begins with Joy
                 </h1>
                 <p className="mt-4 text-lg md:text-xl max-w-3xl mx-auto drop-shadow-md">
-                    Preschool & Primary Education at Fahad Memorial (Prep 1 - Grade 5)
+                    Preschool & Primary Education at Fahad Memorial Int'l School (Prep 1 - Grade 5)
                 </p>
             </div>
         </section>
