@@ -124,7 +124,7 @@ export const newsArticles = [
     id: 3,
     title: "WAEC Registration Now Open",
     slug: "waec-registration-open",
-    date: "2025-12-31",
+    date: "2025-11-04",
     summary: "The West African Examinations Council (WAEC) registration is now officially open for all eligible SS3 students. Registration is ongoing.",
     image: "news-waec-logo",
     content: `
