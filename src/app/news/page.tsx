@@ -20,7 +20,7 @@ export default function NewsPage() {
 
   const latestNews = newsArticles
     .filter(article => new Date(article.date) >= today)
-    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+    .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
 
   const pastEvents = newsArticles
     .filter(article => new Date(article.date) < today)
