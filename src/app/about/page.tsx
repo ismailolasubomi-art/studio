@@ -11,16 +11,37 @@ export const metadata: Metadata = {
   description: `Learn about the mission, vision, and values of Fahad Memorial Int'l School.`,
 };
 
+function HeroSection() {
+    return (
+        <section className="relative h-[60vh] w-full flex items-center justify-center text-center text-white">
+            <Image
+                src="https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/WhatsApp%20Image%202025-11-01%20at%2019.16.56.jpeg?alt=media&token=7d14122a-2185-4e12-856f-5170a217669d"
+                alt="About Fahad Memorial International School"
+                fill
+                className="object-cover"
+                priority
+                data-ai-hint="school students assembly"
+            />
+            <div className="absolute inset-0 bg-black/40" />
+            <div className="relative z-10 container px-4">
+                <h1 className="text-4xl md:text-6xl font-bold font-headline drop-shadow-lg">
+                    About Our School
+                </h1>
+                <p className="mt-4 text-lg md:text-xl max-w-3xl mx-auto drop-shadow-md">
+                    A tradition of excellence and a future of innovation.
+                </p>
+            </div>
+        </section>
+    );
+}
+
 export default function AboutPage() {
   const principalImage = getPlaceholderImage('about-principal');
   const proprietressImage = getPlaceholderImage('about-proprietress');
 
   return (
     <>
-      <PageHeader
-        title="About Our School"
-        subtitle="A tradition of excellence and a future of innovation."
-      />
+      <HeroSection />
 
     <section className="py-16 md:py-24">
         <div className="container">
