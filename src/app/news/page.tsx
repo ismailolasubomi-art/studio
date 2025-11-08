@@ -8,6 +8,7 @@ import { PageHeader } from '@/components/page-header';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { newsArticles, getPlaceholderImage } from '@/lib/data';
+import { cn } from '@/lib/utils';
 
 export const metadata: Metadata = {
   title: 'News & Events',
