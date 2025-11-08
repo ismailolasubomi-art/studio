@@ -40,15 +40,12 @@ export default function ContactPage() {
             message: "",
         },
     });
+    
+    const { watch } = form;
+    const formValues = watch();
 
-    function onSubmit(values: z.infer<typeof formSchema>) {
-        console.log(values);
-        toast({
-            title: "Message Sent!",
-            description: "Thank you for contacting us. We will get back to you soon.",
-        });
-        form.reset();
-    }
+    const mailtoHref = `mailto:${schoolInfo.email}?subject=${encodeURIComponent(formValues.subject)}&body=${encodeURIComponent(`Name: ${formValues.name}\nEmail: ${formValues.email}\n\nMessage:\n${formValues.message}`)}`;
+
 
     return (
         <>
@@ -65,7 +62,7 @@ export default function ContactPage() {
                             </CardHeader>
                             <CardContent>
                                 <Form {...form}>
-                                    <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
+                                    <form className="space-y-8">
                                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                                             <FormField
                                                 control={form.control}
@@ -112,7 +109,9 @@ export default function ContactPage() {
                                                 </FormItem>
                                             )}
                                         />
-                                        <Button type="submit" size="lg" variant="secondary">Send Message</Button>
+                                        <Button asChild size="lg" variant="secondary">
+                                            <a href={mailtoHref}>Send Message</a>
+                                        </Button>
                                     </form>
                                 </Form>
                             </CardContent>
