@@ -108,7 +108,7 @@ export default function PreschoolPrimaryPage() {
                         <div className="mt-6 space-y-6">
                             <div>
                                 <h3 className="font-semibold text-xl text-secondary">Early Years Foundation (Prep 1-3 & Pre-Elementary 1-2)</h3>
-                                <p className="text-muted-foreground mt-2">Our youngest learners experience a play-based curriculum focusing on foundational skills: early literacy and numeracy, social-emotional development, motor skills, creative expression, Islamic values, and outdoor play. Learning happens through songs, stories, games, and hands-on exploration.</p>
+                                <p className="text-muted-foreground mt-2">Our youngest learners experience a play-based curriculum focusing on foundational skills: early literacy and numeracy, social-emotional development, motor skills, creative expression, and outdoor play. Learning happens through songs, stories, games, and hands-on exploration.</p>
                             </div>
                              <div>
                                 <h3 className="font-semibold text-xl text-secondary">Primary Education (Grade 1-5)</h3>
