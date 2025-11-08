@@ -74,13 +74,6 @@ export const newsArticles = [
     image: "news-sports-day"
   },
   {
-    id: 2,
-    title: "Science Fair Showcases Young Innovators",
-    date: "2024-03-15",
-    summary: "Our annual science fair was a huge success, with students from all grades presenting innovative projects. From sustainable energy solutions to robotics, the creativity on display was truly inspiring.",
-    image: "news-science-fair"
-  },
-  {
     id: 3,
     title: "WAEC Registration Now Open - Registration Ongoing",
     date: "2025-12-31",
