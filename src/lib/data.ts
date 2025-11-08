@@ -104,7 +104,7 @@ export const newsArticles = [
     id: 2,
     title: "Cultural Day Celebration",
     slug: "cultural-day-2024",
-    date: "2024-02-18",
+    date: "2025-07-19",
     summary: "A vibrant showcase of our rich cultural heritage. Students and staff celebrated with traditional attire, food, and performances.",
     image: "news-cultural-day",
     content: `
