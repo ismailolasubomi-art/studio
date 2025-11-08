@@ -88,8 +88,8 @@ export const newsArticles = [
 
       <h3 class="font-bold text-lg mt-6 mb-2">Event Details:</h3>
       <ul class="list-none space-y-2">
-          <li><strong>📅 Date:</strong> To Be Decided</li>  
-          <li><strong>⏰ Time:</strong> To Be Decided</li>  
+          <li><strong>📅 Date:</strong> November 24, 2025</li>  
+          <li><strong>⏰ Time:</strong> 10am-12pm</li>  
           <li><strong>📍 Venue:</strong> Fahad Memorial Int'l School Campus</li>
       </ul>
 
