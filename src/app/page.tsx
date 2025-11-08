@@ -69,7 +69,7 @@ function AboutPreview() {
                     <p className="text-sm text-muted-foreground">Dedicated Teachers</p>
                 </div>
                  <div className="p-4 bg-background rounded-lg shadow-sm">
-                    <p className="text-3xl font-bold text-secondary">WASSCE &amp; NECO REGISTERED</p>
+                    <p className="text-3xl font-bold text-secondary">WASSCE &amp; NECO</p>
                     <p className="text-sm text-muted-foreground">Examinations Offered</p>
                 </div>
             </div>
