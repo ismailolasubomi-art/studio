@@ -9,7 +9,7 @@
     {
       "id": "about-principal",
       "description": "A portrait of the school principal.",
-      "imageUrl": "https://images.unsplash.com/photo-1595211877493-41a4e5f236b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjE5NTYzOTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/Dad%20222.jpeg?alt=media&token=d514e5e0-f0cc-40c7-b59d-06fe99fc5ee2",
       "imageHint": "professional portrait"
     },
     {
@@ -47,12 +47,6 @@
       "description": "A delicious showcase of culinary talents from our students and parents.",
       "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/Generated%20Image%20November%2003%2C%202025%20-%2010_17PM.png?alt=media&token=03b9f0c1-3544-4891-af68-2599ad707680",
       "imageHint": "food festival"
-    },
-    {
-      "id": "news-science-fair",
-      "description": "A testament to our students' creativity and scientific curiosity.",
-      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/WhatsApp%20Image%202025-11-01%20at%2019.17.18%20(1).jpeg?alt=media&token=9ec38c7f-ebdb-44b7-b0ae-3855a26be90d",
-      "imageHint": "science fair"
     },
     {
       "id": "news-waec-logo",
