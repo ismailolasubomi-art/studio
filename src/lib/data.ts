@@ -69,23 +69,42 @@ export const newsArticles = [
   {
     id: 1,
     title: "Food Bazaar 2025",
+    slug: "food-bazaar-2025",
     date: "2025-11-24",
-    summary: "Get ready for a delicious celebration! Our annual Food Bazaar returns on November 24th, 2025 showcasing the culinary creativity of our teachers and students. Participants will prepare and present their finest dishes to a panel of judges, competing for exciting cash prizes. It's a wonderful opportunity to celebrate culture, creativity, and community. Join us for a day filled with flavor and fun!",
-    image: "news-sports-day"
+    summary: "A delicious celebration of culinary creativity! Our annual Food Bazaar will showcase the talents of our students and teachers.",
+    image: "news-sports-day",
+    content: `
+      <p>Get ready for a delicious celebration! Our annual Food Bazaar returns on November 24th, 2025, showcasing the culinary creativity of our teachers and students. Participants will prepare and present their finest dishes to a panel of judges, competing for exciting cash prizes.</p>
+      <p>This event is a wonderful opportunity for our school community to come together and celebrate the diverse cultures and talents within Fahad Memorial Int'l School. From traditional Nigerian dishes to international cuisine, there will be something to delight every palate.</p>
+      <h3 class="font-bold text-lg mt-4 mb-2">Event Details:</h3>
+      <ul class="list-disc list-inside space-y-1">
+        <li><strong>Date:</strong> Monday, November 24, 2025</li>
+        <li><strong>Time:</strong> 10:00 AM - 3:00 PM</li>
+        <li><strong>Location:</strong> School Grounds</li>
+        <li><strong>Participation:</strong> Open to all students, teachers, and parent teams.</li>
+      </ul>
+      <p class="mt-4">It's a day filled with flavor, fun, and friendly competition. We invite all parents and family members to join us and support our budding chefs!</p>
+    `
   },
   {
     id: 3,
-    title: "WAEC Registration Now Open - Registration Ongoing",
+    title: "WAEC Registration Now Open",
+    slug: "waec-registration-open",
     date: "2025-12-31",
-    summary: "The West African Examinations Council (WAEC) registration is now officially open for all eligible SS3 students. This is an important milestone in your academic journey. Parents and students should complete the registration process promptly to secure examination slots. Visit the school office for registration forms and guidance. Don't miss this critical deadline, your future begins here!",
-    image: "news-waec-logo"
-  },
-  {
-    id: 4,
-    title: "Cultural Day Celebration",
-    date: "2024-02-18",
-    summary: "We celebrated our rich cultural diversity with a vibrant event filled with music, dance, and traditional attire. It was a beautiful display of unity and pride in our heritage.",
-    image: "news-cultural-day"
+    summary: "The West African Examinations Council (WAEC) registration is now officially open for all eligible SS3 students. Registration is ongoing.",
+    image: "news-waec-logo",
+    content: `
+      <p>The West African Examinations Council (WAEC) registration is now officially open for all eligible SS3 students. This is an important milestone in your academic journey, marking the first step towards your final secondary school examinations.</p>
+      <p>Parents and students are advised to complete the registration process promptly to secure examination slots. The deadline for registration will be announced soon, but we encourage everyone to register early to avoid any last-minute rush.</p>
+      <h3 class="font-bold text-lg mt-4 mb-2">How to Register:</h3>
+      <ol class="list-decimal list-inside space-y-1">
+        <li>Visit the school's administrative office to pick up the registration forms.</li>
+        <li>Fill out the forms completely and accurately.</li>
+        <li>Attach all required documents, including passport photographs and birth certificates.</li>
+        <li>Submit the completed forms and payment to the admissions office.</li>
+      </ol>
+      <p class="mt-4">Our staff is available to provide guidance and support throughout the registration process. Don't miss this critical deadline—your future begins here!</p>
+    `
   }
 ];
 
