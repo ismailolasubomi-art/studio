@@ -79,7 +79,7 @@ export default function NewsPage() {
                   return (
                      <Card key={article.id} className="overflow-hidden flex flex-col bg-primary">
                       <div className="relative h-48 w-full">
-                          <Image src={articleImage.imageUrl} alt={article.title} fill className="object-contain p-4" data-ai-hint={articleImage.imageHint} />
+                          <Image src={articleImage.imageUrl} alt={article.title} fill className="object-cover" data-ai-hint={articleImage.imageHint} />
                       </div>
                       <CardHeader>
                           <CardDescription className="text-muted-foreground">{new Date(article.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</CardDescription>

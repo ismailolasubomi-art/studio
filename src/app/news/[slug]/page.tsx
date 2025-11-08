@@ -51,15 +51,17 @@ export default function NewsArticlePage({ params }: NewsArticlePageProps) {
       />
       <section className="py-16 md:py-24">
         <div className="container max-w-4xl mx-auto">
-          <div className="relative aspect-video mb-12 rounded-lg overflow-hidden">
-            <Image
-              src={articleImage.imageUrl}
-              alt={article.title}
-              fill
-              className="object-contain p-4"
-              data-ai-hint={articleImage.imageHint}
-            />
-          </div>
+           {article.slug !== 'inter-house-sports-2025' && (
+            <div className="relative aspect-video mb-12 rounded-lg overflow-hidden">
+                <Image
+                src={articleImage.imageUrl}
+                alt={article.title}
+                fill
+                className="object-contain p-4"
+                data-ai-hint={articleImage.imageHint}
+                />
+            </div>
+           )}
           <div
             className="prose lg:prose-lg max-w-none mx-auto text-foreground/80 space-y-4"
             dangerouslySetInnerHTML={{ __html: article.content }}
