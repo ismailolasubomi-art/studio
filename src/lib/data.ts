@@ -121,7 +121,6 @@ export const newsArticles = [
       <ul class="list-disc list-inside space-y-2">
         <li><strong>Opening Ceremony:</strong> A colorful parade of houses, with each team marching proudly with their banners.</li>
         <li><strong>Track and Field Events:</strong> Fierce but friendly competition in sprints, relays, long jump, and high jump.</li>
-        <li><strong>Team Sports:</strong> Exciting football matches that had everyone on the edge of their seats.</li>
         <li><strong>Novelty Races:</strong> Fun-filled events like the sack race and three-legged race that brought laughter and joy.</li>
         <li><strong>Award Ceremony:</strong> Recognition of outstanding athletes and the crowning of the overall winning house.</li>
       </ul>
@@ -163,5 +162,6 @@ export const getPlaceholderImage = (id: string): ImagePlaceholder => {
     }
     return image;
 };
+
 
 
