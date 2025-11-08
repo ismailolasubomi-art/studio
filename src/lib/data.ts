@@ -102,20 +102,20 @@ export const newsArticles = [
   },
   {
     id: 2,
-    title: "Cultural Day Celebration",
-    slug: "cultural-day-2024",
+    title: "Annual Inter-House Sport Activity 2025",
+    slug: "inter-house-sports-2025",
     date: "2025-07-19",
-    summary: "A vibrant showcase of our rich cultural heritage. Students and staff celebrated with traditional attire, food, and performances.",
+    summary: "A vibrant showcase of athleticism and team spirit. Students will compete in various sporting events.",
     image: "news-cultural-day",
     content: `
-      <p>Our annual Cultural Day was a massive success! On February 18, 2024, our school grounds were transformed into a vibrant tapestry of colors, sounds, and traditions. Students and staff proudly wore stunning traditional attire, representing the diverse ethnic groups within our school community.</p>
-      <p>The day was filled with exciting activities, including electrifying dance performances, dramatic presentations, and a delicious spread of traditional foods. It was a beautiful reminder of the unity in our diversity and the importance of preserving our cultural heritage.</p>
+      <p>Our annual Inter-House Sports day was a massive success! The school grounds were transformed into a vibrant tapestry of colors, sounds, and sportsmanship. Students and staff proudly represented their houses.</p>
+      <p>The day was filled with exciting activities, including track and field events, football, and other team sports. It was a beautiful reminder of the unity in our diversity and the importance of physical education.</p>
        <h3 class="font-bold text-lg mt-4 mb-2">Highlights of the Day:</h3>
       <ul class="list-disc list-inside space-y-1">
-        <li>Parade of Nations featuring various cultural outfits.</li>
-        <li>Traditional dance-off between houses.</li>
-        <li>A feast of cultural delicacies.</li>
-        <li>Spoken word poetry and drama sketches.</li>
+        <li>Parade of houses.</li>
+        <li>Track and field competitions.</li>
+        <li>Football matches.</li>
+        <li>Award ceremony for winning houses and athletes.</li>
       </ul>
       <p class="mt-4">We thank all parents and guardians who joined us and made the day truly memorable. We look forward to an even grander celebration next year!</p>
     `
