@@ -58,11 +58,6 @@ const facilities = [
         id: 'about-mission',
         title: 'Bright, Spacious Classrooms',
         description: "Our classrooms are designed for young learners; colorful, well-lit, and equipped with age-appropriate furniture and learning materials. Each classroom creates an inviting atmosphere where students feel comfortable to explore, ask questions, and grow."
-    },
-    {
-        id: 'gallery-8',
-        title: 'Library',
-        description: "Our library is a treasure trove of stories and knowledge, fostering a lifelong love for reading from an early age."
     }
 ]
 
