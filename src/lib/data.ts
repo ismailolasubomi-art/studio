@@ -70,7 +70,7 @@ export const newsArticles = [
     id: 1,
     title: "Upcoming Intercontinental Food Bazzre 2025",
     slug: "food-bazzre-2025",
-    date: "2025-11-24",
+    date: "2025-11-01",
     summary: "Experience a culinary journey around the world at our upcoming Intercontinental Food Bazzre! Savor authentic dishes from across the globe.",
     image: "news-sports-day",
     content: `
@@ -161,6 +161,7 @@ export const getPlaceholderImage = (id: string): ImagePlaceholder => {
     }
     return image;
 };
+
 
 
 
