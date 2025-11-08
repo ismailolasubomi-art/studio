@@ -74,13 +74,6 @@ export const newsArticles = [
     image: "news-sports-day"
   },
   {
-    id: 2,
-    title: "Science Fair Showcases Young Innovators",
-    date: "2024-04-22",
-    summary: "A testament to our students' creativity and scientific curiosity.",
-    image: "news-science-fair"
-  },
-  {
     id: 3,
     title: "WAEC Registration Now Open - Registration Ongoing",
     date: "2025-11-04",
