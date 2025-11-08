@@ -19,7 +19,7 @@ function HeroSection() {
     return (
         <section className="relative h-[60vh] w-full flex items-center justify-center text-center text-white">
             <Image
-                src={heroImage.imageUrl}
+                src="https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/no%202.jpeg?alt=media&token=b77e5f19-a4b6-444e-872a-c0e1e3c85553"
                 alt={heroImage.description}
                 fill
                 className="object-cover"
