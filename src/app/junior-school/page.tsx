@@ -60,7 +60,8 @@ const facilities = [
     {
         id: 'gallery-4',
         title: 'Football Field & Sports Facilities',
-        description: "Athletics build character. Our football field hosts Physical education classes and recreational activities where students stay active and healthy. We believe sports teach discipline, teamwork, resilience, and sportsmanship—lessons that translate to academic success."
+        description: "Athletics build character. Our football field hosts Physical education classes and recreational activities where students stay active and healthy. We believe sports teach discipline, teamwork, resilience, and sportsmanship—lessons that translate to academic success.",
+        imageUrl: "https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/no%205.jpeg?alt=media&token=8536fea8-20cb-413a-a93c-0953725f9e29"
     },
 ];
 
@@ -214,7 +215,7 @@ export default function JuniorSchoolPage() {
                 </div>
             </section>
             
-            <section className="py-16 md:py-24 bg-primary">
+            <section className="py-16 md-py-24 bg-primary">
                 <div className="container text-center">
                     <h2 className="text-3xl md:text-4xl font-bold font-headline">Enroll your child in a junior school that prepares them for success.</h2>
                     <p className="mt-4 max-w-xl mx-auto text-muted-foreground">Contact us today!</p>
