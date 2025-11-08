@@ -55,7 +55,8 @@ const facilities = [
     {
         id: 'about-mission',
         title: 'Well-Ventilated Classrooms',
-        description: "Conducive learning environments matter. Our JSS classrooms are designed for focused study—equipped with teaching aids, adequate seating, proper lighting, and ventilation that keeps students comfortable and engaged throughout lessons."
+        description: "Conducive learning environments matter. Our JSS classrooms are designed for focused study—equipped with teaching aids, adequate seating, proper lighting, and ventilation that keeps students comfortable and engaged throughout lessons.",
+        imageUrl: "https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/n0%203.jpeg?alt=media&token=61b8ad1b-dac4-4c4e-aacf-ab0c6974bf63"
     },
     {
         id: 'gallery-4',
