@@ -86,9 +86,9 @@
     },
     {
       "id": "gallery-4",
-      "description": "A school basketball game.",
-      "imageUrl": "https://images.unsplash.com/photo-1583079806406-91731880e785?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxiYXNrZXRiYWxsJTIwZ2FtZXxlbnwwfHx8fDE3NjE5MjkyODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "basketball game"
+      "description": "Students playing on a football field.",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/image%203.jpeg?alt=media&token=f2400a73-163e-429b-b4f9-937f11115c56",
+      "imageHint": "football field"
     },
     {
       "id": "gallery-5",
