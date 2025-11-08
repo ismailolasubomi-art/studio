@@ -104,7 +104,7 @@ export const newsArticles = [
     id: 2,
     title: "Annual Inter-House Sport Activity 2025",
     slug: "inter-house-sports-2025",
-    date: "2024-07-19",
+    date: "2025-07-19",
     summary: "A vibrant showcase of athleticism and team spirit. Students will compete in various sporting events.",
     image: "news-cultural-day",
     content: `
@@ -163,4 +163,5 @@ export const getPlaceholderImage = (id: string): ImagePlaceholder => {
     }
     return image;
 };
+
 
