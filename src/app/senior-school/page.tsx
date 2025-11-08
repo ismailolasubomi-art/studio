@@ -47,7 +47,7 @@ const coreSubjects = ["English Language", "Mathematics", "Civic Education", "One
 
 const facilities = [
     { id: 'gallery-9', title: 'Fully-Equipped Science Laboratories', description: "Practical knowledge matters for WAEC/NECO success. Our chemistry, physics, and biology labs provide hands-on experience with experiments, equipment handling, and scientific methodology turning theoretical knowledge into practical understanding.", imageUrl: 'https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/WhatsApp%20Image%202025-11-01%20at%2019.17.21.jpeg?alt=media&token=b39dfef8-8212-4935-b245-8599cbf977fc' },
-    { id: 'gallery-4', title: 'Football Field', description: "Sports remain vital even at senior level. Our football field hosts PE classes and athletic activities where students stay physically fit and mentally refreshed. We've nurtured students who balance athletic passion with academic excellence, proving that a healthy body supports a sharp mind.", imageUrl: 'https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/no%204.jpeg?alt=media&token=4caf8547-3c9e-4ef3-8029-954d3766ca71' },
+    { id: 'gallery-4', title: 'Football Field', description: "Sports remain vital even at senior level. Our football field hosts PE classes and athletic activities where students stay physically fit and mentally refreshed. We've nurtured students who balance athletic passion with academic excellence, proving that a healthy body supports a sharp mind.", imageUrl: 'https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/Untitled%20design%20(1).jpg?alt=media&token=46030fd6-d61a-46d8-be09-a127fcd3d541' },
     { id: 'about-mission', title: 'Modern, Focused Learning Spaces', description: "Senior students need serious learning environments. Our SS classrooms are designed for mature learners—spacious, well-equipped with teaching materials, minimal distractions, and conducive for the concentrated study senior school demands.", imageUrl: 'https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/n0%203.jpeg?alt=media&token=61b8ad1b-dac4-4c4e-aacf-ab0c6974bf63' },
 ];
 
@@ -239,3 +239,5 @@ export default function SeniorSchoolPage() {
         </>
     );
 }
+
+    
