@@ -48,7 +48,7 @@ const coreSubjects = ["English Language", "Mathematics", "Civic Education", "One
 const facilities = [
     { id: 'gallery-9', title: 'Fully-Equipped Science Laboratories', description: "Practical knowledge matters for WAEC/NECO success. Our chemistry, physics, and biology labs provide hands-on experience with experiments, equipment handling, and scientific methodology turning theoretical knowledge into practical understanding." },
     { id: 'gallery-4', title: 'Football Field', description: "Sports remain vital even at senior level. Our football field hosts PE classes and athletic activities where students stay physically fit and mentally refreshed. We've nurtured students who balance athletic passion with academic excellence, proving that a healthy body supports a sharp mind.", imageUrl: 'https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/no%204.jpeg?alt=media&token=4caf8547-3c9e-4ef3-8029-954d3766ca71' },
-    { id: 'about-mission', title: 'Modern, Focused Learning Spaces', description: "Senior students need serious learning environments. Our SS classrooms are designed for mature learners—spacious, well-equipped with teaching materials, minimal distractions, and conducive for the concentrated study senior school demands." },
+    { id: 'about-mission', title: 'Modern, Focused Learning Spaces', description: "Senior students need serious learning environments. Our SS classrooms are designed for mature learners—spacious, well-equipped with teaching materials, minimal distractions, and conducive for the concentrated study senior school demands.", imageUrl: 'https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/n0%203.jpeg?alt=media&token=61b8ad1b-dac4-4c4e-aacf-ab0c6974bf63' },
 ];
 
 export default function SeniorSchoolPage() {
@@ -140,8 +140,8 @@ export default function SeniorSchoolPage() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                         {facilities.map(facility => {
                             let facilityImage;
-                            if (facility.id === 'gallery-4' && 'imageUrl' in facility) {
-                                facilityImage = { imageUrl: facility.imageUrl, imageHint: 'football field' };
+                            if ('imageUrl' in facility && facility.imageUrl) {
+                                facilityImage = { imageUrl: facility.imageUrl, imageHint: 'school facility' };
                             } else {
                                 facilityImage = getPlaceholderImage(facility.id);
                             }
@@ -239,5 +239,3 @@ export default function SeniorSchoolPage() {
         </>
     );
 }
-
-    
