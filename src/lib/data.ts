@@ -104,20 +104,28 @@ export const newsArticles = [
     id: 2,
     title: "Annual Inter-House Sport Activity 2025",
     slug: "inter-house-sports-2025",
-    date: "2025-07-19",
+    date: "2024-07-19",
     summary: "A vibrant showcase of athleticism and team spirit. Students will compete in various sporting events.",
     image: "news-cultural-day",
     content: `
-      <p>Our annual Inter-House Sports day was a massive success! The school grounds were transformed into a vibrant tapestry of colors, sounds, and sportsmanship. Students and staff proudly represented their houses.</p>
-      <p>The day was filled with exciting activities, including track and field events, football, and other team sports. It was a beautiful reminder of the unity in our diversity and the importance of physical education.</p>
-       <h3 class="font-bold text-lg mt-4 mb-2">Highlights of the Day:</h3>
-      <ul class="list-disc list-inside space-y-1">
-        <li>Parade of houses.</li>
-        <li>Track and field competitions.</li>
-        <li>Football matches.</li>
-        <li>Award ceremony for winning houses and athletes.</li>
+      <p>Our annual Inter-House Sports day was a massive success! The school grounds were transformed into a vibrant tapestry of colors, sounds, and sportsmanship as students and staff proudly represented their houses: Red, Blue, Yellow, and Green.</p>
+      <p>The day was filled with exciting activities that showcased the athletic talents and team spirit of our students. From the opening march-past to the final awards ceremony, the energy was electrifying. It was a beautiful reminder of the unity in our diversity and the importance of physical education in building character and discipline.</p>
+
+      <div class="my-8 grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <img src="https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/one.jpeg?alt=media&token=ef4f27f4-cbb0-4086-b532-22e2e802f346" alt="Students competing in a race" class="rounded-lg shadow-md object-cover w-full h-full">
+        <img src="https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/two.jpeg?alt=media&token=8ef713e6-9270-466c-a7d8-0e3f8bc02ac6" alt="Students in their house colors" class="rounded-lg shadow-md object-cover w-full h-full">
+        <img src="https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/three.jpeg?alt=media&token=3ad4b427-9b89-41e6-8420-396c46e3ee8d" alt="Award presentation" class="rounded-lg shadow-md object-cover w-full h-full">
+      </div>
+
+       <h3 class="font-bold text-xl mt-6 mb-3">Highlights of the Day:</h3>
+      <ul class="list-disc list-inside space-y-2">
+        <li><strong>Opening Ceremony:</strong> A colorful parade of houses, with each team marching proudly with their banners.</li>
+        <li><strong>Track and Field Events:</strong> Fierce but friendly competition in sprints, relays, long jump, and high jump.</li>
+        <li><strong>Team Sports:</strong> Exciting football matches that had everyone on the edge of their seats.</li>
+        <li><strong>Novelty Races:</strong> Fun-filled events like the sack race and three-legged race that brought laughter and joy.</li>
+        <li><strong>Award Ceremony:</strong> Recognition of outstanding athletes and the crowning of the overall winning house.</li>
       </ul>
-      <p class="mt-4">We thank all parents and guardians who joined us and made the day truly memorable. We look forward to an even grander celebration next year!</p>
+      <p class="mt-6">We extend our heartfelt gratitude to all parents, guardians, and staff who joined us and contributed to making the day truly memorable. Your support and enthusiasm were invaluable. We look forward to an even grander celebration next year!</p>
     `
   },
   {
@@ -155,3 +163,4 @@ export const getPlaceholderImage = (id: string): ImagePlaceholder => {
     }
     return image;
 };
+
