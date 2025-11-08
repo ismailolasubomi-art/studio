@@ -49,7 +49,8 @@ const facilities = [
     {
         id: 'gallery-9',
         title: 'Science Laboratory',
-        description: "Theory meets practice! Our science lab allows students to conduct experiments, observe phenomena, and understand scientific principles through direct experience."
+        description: "Theory meets practice! Our science lab allows students to conduct experiments, observe phenomena, and understand scientific principles through direct experience.",
+        imageUrl: "https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/WhatsApp%20Image%202025-11-01%20at%2019.17.20.jpeg?alt=media&token=11ea3cef-837d-4161-8cc6-7cc429ea4508"
     },
     {
         id: 'about-mission',
