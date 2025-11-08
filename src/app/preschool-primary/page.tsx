@@ -47,7 +47,8 @@ const facilities = [
     {
         id: 'gallery-9',
         title: 'Trampoline Zone',
-        description: "A favorite among our students! Our designated trampoline area provides fun exercise that improves balance, coordination, and physical fitness. It's where laughter meets learning, building strong bodies and joyful memories."
+        description: "A favorite among our students! Our designated trampoline area provides fun exercise that improves balance, coordination, and physical fitness. It's where laughter meets learning, building strong bodies and joyful memories.",
+        imageUrl: 'https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/image%202.jpeg?alt=media&token=0e27325b-4385-42ed-b0b0-e6b91228f887'
     },
     {
         id: 'gallery-4',
@@ -126,7 +127,12 @@ export default function PreschoolPrimaryPage() {
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                         {facilities.map(facility => {
-                            const facilityImage = getPlaceholderImage(facility.id);
+                            let facilityImage;
+                            if ('imageUrl' in facility && facility.imageUrl) {
+                                facilityImage = { imageUrl: facility.imageUrl, imageHint: 'school facility' };
+                            } else {
+                                facilityImage = getPlaceholderImage(facility.id);
+                            }
                             return (
                                 <Card key={facility.id} className="overflow-hidden group">
                                     <div className="relative h-48 w-full">
