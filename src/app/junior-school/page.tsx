@@ -43,7 +43,8 @@ const facilities = [
     {
         id: 'gallery-7',
         title: 'Modern Computer Laboratory',
-        description: "Technology powers the future. Our well-equipped computer lab features modern systems where students learn Microsoft Office, internet research, and digital citizenship. Hands-on practice ensures students are tech-confident and ready for the digital age."
+        description: "Technology powers the future. Our well-equipped computer lab features modern systems where students learn Microsoft Office, internet research, and digital citizenship. Hands-on practice ensures students are tech-confident and ready for the digital age.",
+        imageUrl: "https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/2.jpg?alt=media&token=6b0c4fc9-1347-4f53-a340-8299959b0fcc"
     },
     {
         id: 'gallery-9',
@@ -135,7 +136,12 @@ export default function JuniorSchoolPage() {
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                         {facilities.map(facility => {
-                            const facilityImage = getPlaceholderImage(facility.id);
+                            let facilityImage;
+                            if ('imageUrl' in facility && facility.imageUrl) {
+                                facilityImage = { imageUrl: facility.imageUrl, imageHint: 'school facility' };
+                            } else {
+                                facilityImage = getPlaceholderImage(facility.id);
+                            }
                             return (
                                 <Card key={facility.id} className="overflow-hidden group">
                                     <div className="relative h-48 w-full">
