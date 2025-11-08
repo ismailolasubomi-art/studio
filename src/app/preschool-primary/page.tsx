@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';
@@ -42,7 +43,8 @@ const facilities = [
     {
         id: 'gallery-5',
         title: 'Outdoor Play Areas',
-        description: "Childhood isn't complete without play! Our expansive playground features modern swings, slides, and climbing structures where children develop gross motor skills, confidence, and social bonds. Supervised playtime ensures safety while encouraging active, healthy lifestyles."
+        description: "Childhood isn't complete without play! Our expansive playground features modern swings, slides, and climbing structures where children develop gross motor skills, confidence, and social bonds. Supervised playtime ensures safety while encouraging active, healthy lifestyles.",
+        imageUrl: "https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/Untitled%20design.jpg?alt=media&token=c6ac91ee-46cd-406f-abf3-a56c276c8006"
     },
     {
         id: 'gallery-9',
