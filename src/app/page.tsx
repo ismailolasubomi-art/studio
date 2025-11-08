@@ -51,7 +51,7 @@ function AboutPreview() {
     <section className="py-16 md:py-24 bg-primary">
       <div className="container grid lg:grid-cols-2 gap-12 items-center">
         <div>
-            <h2 className="text-3xl md:text-4xl font-bold font-headline text-foreground">Welcome to {schoolInfo.shortName}</h2>
+            <h2 className="text-3xl md:text-4xl font-bold font-headline text-foreground">Welcome to {schoolInfo.name}</h2>
             <p className="mt-4 text-lg text-foreground/80">
                 {about.welcome}
             </p>
