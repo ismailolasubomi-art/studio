@@ -60,7 +60,8 @@ const facilities = [
     {
         id: 'about-mission',
         title: 'Bright, Spacious Classrooms',
-        description: "Our classrooms are designed for young learners; colorful, well-lit, and equipped with age-appropriate furniture and learning materials. Each classroom creates an inviting atmosphere where students feel comfortable to explore, ask questions, and grow."
+        description: "Our classrooms are designed for young learners; colorful, well-lit, and equipped with age-appropriate furniture and learning materials. Each classroom creates an inviting atmosphere where students feel comfortable to explore, ask questions, and grow.",
+        imageUrl: "https://firebasestorage.googleapis.com/v0/b/studio-6593612663-293d1.firebasestorage.app/o/image%20now.jpeg?alt=media&token=f1a69dc8-4ecc-4095-bc74-740a3bd625a4"
     }
 ]
 
