@@ -39,6 +39,16 @@ export function Footer() {
                 </Link>
               </li>
             ))}
+            <li>
+              <a 
+                href="https://fmis-portal-497177726398.us-west1.run.app" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-sm text-background/70 hover:text-secondary transition-colors"
+              >
+                School Portal
+              </a>
+            </li>
           </ul>
         </div>
 
