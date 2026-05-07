@@ -41,7 +41,7 @@ export function Footer() {
             ))}
             <li>
               <a 
-                href="https://fmis-portal-497177726398.us-west1.run.app" 
+                href="https://fmis-portal-946169281162.us-west1.run.app/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-sm text-background/70 hover:text-secondary transition-colors"
@@ -61,7 +61,7 @@ export function Footer() {
                 {schoolInfo.phone}
               </a>
               <br />
-               <a href={`tel:${schoolInfo.phone2}`} className="hovertext-secondary transition-colors">
+               <a href={`tel:${schoolInfo.phone2}`} className="hover:text-secondary transition-colors">
                 {schoolInfo.phone2}
               </a>
             </p>
